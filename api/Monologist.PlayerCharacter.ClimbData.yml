@@ -20,7 +20,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: ClimbData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 43
   assemblies:
   - Monologist.PlayerCharacter
@@ -65,7 +65,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: climbSpeed
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 46
   assemblies:
   - Monologist.PlayerCharacter
@@ -104,7 +104,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxClimbHeight
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 47
   assemblies:
   - Monologist.PlayerCharacter

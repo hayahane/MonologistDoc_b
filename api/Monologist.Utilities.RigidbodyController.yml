@@ -35,7 +35,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: RigidbodyController
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 6
   assemblies:
   - Monologist.Utilities
@@ -195,7 +195,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: useDefaultGravity
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 18
   assemblies:
   - Monologist.Utilities
@@ -222,7 +222,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSlopeAngle
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 19
   assemblies:
   - Monologist.Utilities
@@ -249,7 +249,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxStairHeight
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 21
   assemblies:
   - Monologist.Utilities
@@ -288,7 +288,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: slopeDetectOffset
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 22
   assemblies:
   - Monologist.Utilities
@@ -315,7 +315,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxMoveSpeed
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 23
   assemblies:
   - Monologist.Utilities
@@ -342,7 +342,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: groundLayer
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 26
   assemblies:
   - Monologist.Utilities
@@ -369,7 +369,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: groundHits
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 27
   assemblies:
   - Monologist.Utilities
@@ -396,7 +396,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: slopeHit
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 28
   assemblies:
   - Monologist.Utilities
@@ -423,7 +423,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: stairHit
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 29
   assemblies:
   - Monologist.Utilities
@@ -450,7 +450,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: cachedGroundNormal
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 30
   assemblies:
   - Monologist.Utilities
@@ -477,7 +477,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: isGrounded
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 32
   assemblies:
   - Monologist.Utilities
@@ -514,7 +514,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetVelocity
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 170
   assemblies:
   - Monologist.Utilities
@@ -543,7 +543,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetActiveVelocity
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 175
   assemblies:
   - Monologist.Utilities
@@ -572,7 +572,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AddPassiveVelocity
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 180
   assemblies:
   - Monologist.Utilities
@@ -601,7 +601,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachTo
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 185
   assemblies:
   - Monologist.Utilities
@@ -630,7 +630,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: GetPassiveForceOnAcitiveDirection
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 197
   assemblies:
   - Monologist.Utilities
@@ -658,7 +658,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: GetVelocityOnActiveDirection
-    path: ../Assets/Scripts/Utilities/RigidbodyController.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RigidbodyController.cs
     startLine: 202
   assemblies:
   - Monologist.Utilities

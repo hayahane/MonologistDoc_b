@@ -36,7 +36,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: FloatingCapsule
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 7
   assemblies:
   - Monologist.Utilities
@@ -196,7 +196,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: useDefaultGravity
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 19
   assemblies:
   - Monologist.Utilities
@@ -223,7 +223,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: capsuleHeight
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 20
   assemblies:
   - Monologist.Utilities
@@ -260,7 +260,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: capsuleRadius
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 21
   assemblies:
   - Monologist.Utilities
@@ -297,7 +297,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: floatToPositionTime
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 22
   assemblies:
   - Monologist.Utilities
@@ -336,7 +336,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: detectOffset
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 23
   assemblies:
   - Monologist.Utilities
@@ -375,7 +375,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: detectRadius
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 24
   assemblies:
   - Monologist.Utilities
@@ -414,7 +414,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: floatRange
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 25
   assemblies:
   - Monologist.Utilities
@@ -455,7 +455,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSlopeAngle
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 27
   assemblies:
   - Monologist.Utilities
@@ -496,7 +496,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSpeed
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 29
   assemblies:
   - Monologist.Utilities
@@ -523,7 +523,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: groundLayer
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 32
   assemblies:
   - Monologist.Utilities
@@ -550,7 +550,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: isGrounded
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 41
   assemblies:
   - Monologist.Utilities
@@ -594,7 +594,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachTo
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 161
   assemblies:
   - Monologist.Utilities
@@ -626,7 +626,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetActiveForce
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 168
   assemblies:
   - Monologist.Utilities
@@ -655,7 +655,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AddPassiveForce
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 173
   assemblies:
   - Monologist.Utilities
@@ -684,7 +684,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetVelocity
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 178
   assemblies:
   - Monologist.Utilities
@@ -713,7 +713,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: GetPassiveForceOnAcitiveDirection
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 183
   assemblies:
   - Monologist.Utilities
@@ -741,7 +741,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: GetVelocityOnActiveDirection
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 188
   assemblies:
   - Monologist.Utilities
@@ -769,7 +769,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: GetVelocityOnAdjustedDircetion
-    path: ../Assets/Scripts/Utilities/FloatingCapsule.cs
+    path: ../Bartender/Assets/Scripts/Utilities/FloatingCapsule.cs
     startLine: 193
   assemblies:
   - Monologist.Utilities

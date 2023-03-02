@@ -22,7 +22,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: StateMachine
-    path: ../Assets/Scripts/Patterns/StateMachine/StateMachine.cs
+    path: ../Bartender/Assets/Scripts/Patterns/StateMachine/StateMachine.cs
     startLine: 6
   assemblies:
   - Monologist.Patterns
@@ -59,7 +59,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CurrentState
-    path: ../Assets/Scripts/Patterns/StateMachine/StateMachine.cs
+    path: ../Bartender/Assets/Scripts/Patterns/StateMachine/StateMachine.cs
     startLine: 8
   assemblies:
   - Monologist.Patterns
@@ -88,7 +88,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: TransitTo
-    path: ../Assets/Scripts/Patterns/StateMachine/StateMachine.cs
+    path: ../Bartender/Assets/Scripts/Patterns/StateMachine/StateMachine.cs
     startLine: 10
   assemblies:
   - Monologist.Patterns
@@ -117,7 +117,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: Update
-    path: ../Assets/Scripts/Patterns/StateMachine/StateMachine.cs
+    path: ../Bartender/Assets/Scripts/Patterns/StateMachine/StateMachine.cs
     startLine: 17
   assemblies:
   - Monologist.Patterns
@@ -143,7 +143,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: FixedUpdate
-    path: ../Assets/Scripts/Patterns/StateMachine/StateMachine.cs
+    path: ../Bartender/Assets/Scripts/Patterns/StateMachine/StateMachine.cs
     startLine: 22
   assemblies:
   - Monologist.Patterns

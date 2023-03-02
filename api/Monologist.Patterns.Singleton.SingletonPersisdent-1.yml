@@ -19,7 +19,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SingletonPersisdent
-    path: ../Assets/Scripts/Patterns/Singleton/Singleton.cs
+    path: ../Bartender/Assets/Scripts/Patterns/Singleton/Singleton.cs
     startLine: 59
   assemblies:
   - Monologist.Patterns
@@ -175,7 +175,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetPersisdent
-    path: ../Assets/Scripts/Patterns/Singleton/Singleton.cs
+    path: ../Bartender/Assets/Scripts/Patterns/Singleton/Singleton.cs
     startLine: 61
   assemblies:
   - Monologist.Patterns

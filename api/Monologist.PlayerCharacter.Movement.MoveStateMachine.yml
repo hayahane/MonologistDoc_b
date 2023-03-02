@@ -28,7 +28,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveStateMachine
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 8
   assemblies:
   - Monologist.PlayerCharacter
@@ -78,7 +78,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: PlayerController
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 12
   assemblies:
   - Monologist.PlayerCharacter
@@ -107,7 +107,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: characterController
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 14
   assemblies:
   - Monologist.PlayerCharacter
@@ -134,7 +134,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: cameraTrans
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 18
   assemblies:
   - Monologist.PlayerCharacter
@@ -161,7 +161,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: inputDirWorld
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 19
   assemblies:
   - Monologist.PlayerCharacter
@@ -188,7 +188,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: velocityConstrains
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 21
   assemblies:
   - Monologist.PlayerCharacter
@@ -215,7 +215,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: accelerationConstrains
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 22
   assemblies:
   - Monologist.PlayerCharacter
@@ -242,7 +242,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: entryStateName
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 29
   assemblies:
   - Monologist.PlayerCharacter
@@ -269,7 +269,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: .ctor
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 34
   assemblies:
   - Monologist.PlayerCharacter
@@ -301,7 +301,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: Initialize
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 59
   assemblies:
   - Monologist.PlayerCharacter
@@ -327,7 +327,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: TransitTo
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/MoveStateMachine.cs
     startLine: 66
   assemblies:
   - Monologist.PlayerCharacter

@@ -25,7 +25,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AirState
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 5
   assemblies:
   - Monologist.PlayerCharacter
@@ -67,7 +67,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: .ctor
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 7
   assemblies:
   - Monologist.PlayerCharacter
@@ -99,7 +99,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: OnEnter
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 11
   assemblies:
   - Monologist.PlayerCharacter
@@ -126,7 +126,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: Update
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 16
   assemblies:
   - Monologist.PlayerCharacter
@@ -153,7 +153,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: FixedUpdate
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 20
   assemblies:
   - Monologist.PlayerCharacter
@@ -180,7 +180,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: OnExit
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 25
   assemblies:
   - Monologist.PlayerCharacter
@@ -207,7 +207,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: BindInputActions
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 31
   assemblies:
   - Monologist.PlayerCharacter
@@ -234,7 +234,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CancelInputActions
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
     startLine: 36
   assemblies:
   - Monologist.PlayerCharacter

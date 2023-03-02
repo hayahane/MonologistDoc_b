@@ -21,7 +21,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: IdleState
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
     startLine: 2
   assemblies:
   - Monologist.PlayerCharacter
@@ -62,7 +62,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: .ctor
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
     startLine: 4
   assemblies:
   - Monologist.PlayerCharacter
@@ -94,7 +94,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: OnEnter
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
     startLine: 8
   assemblies:
   - Monologist.PlayerCharacter
@@ -121,7 +121,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: Update
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OnGroundState/IdleState.cs
     startLine: 12
   assemblies:
   - Monologist.PlayerCharacter

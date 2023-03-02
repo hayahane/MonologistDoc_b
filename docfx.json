@@ -8,7 +8,7 @@
                         "**.csproj"
                     ],
                     "exclude": [
-                        "Assets/Plugins/**"
+                        "Bartender/Assets/Plugins/**"
                     ]
                 }
             ],
@@ -20,7 +20,7 @@
         "globalMetadata": {
             "_appTitle": "Monologist Pack",
             "_appFooter": "&#0169; 2023- Monologist",
-            "_appFaviconPath" : "resources/logo.png",
+            "_appFaviconPath": "resources/logo.png",
             "_appLogoPath": "resources/logo.png",
             "_enableSearch": true
         },
@@ -55,11 +55,11 @@
                 ]
             }
         ]
-        },
-        "xref": [
-            "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
-        ],
-        "xrefService": [
-            "https://xref.docs.microsoft.com/query?uid={uid}"
-        ]
+    },
+    "xref": [
+        "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+    ],
+    "xrefService": [
+        "https://xref.docs.microsoft.com/query?uid={uid}"
+    ]
 }

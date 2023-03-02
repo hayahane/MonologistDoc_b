@@ -21,7 +21,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DashData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 35
   assemblies:
   - Monologist.PlayerCharacter
@@ -66,7 +66,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: dashDistance
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 38
   assemblies:
   - Monologist.PlayerCharacter
@@ -105,7 +105,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: dashTime
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 39
   assemblies:
   - Monologist.PlayerCharacter
@@ -146,7 +146,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: dashCD
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 40
   assemblies:
   - Monologist.PlayerCharacter

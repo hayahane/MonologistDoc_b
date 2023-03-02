@@ -19,7 +19,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: HoverState
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/HoverState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/HoverState.cs
     startLine: 3
   assemblies:
   - Monologist.PlayerCharacter
@@ -64,7 +64,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: .ctor
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/HoverState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/HoverState.cs
     startLine: 5
   assemblies:
   - Monologist.PlayerCharacter

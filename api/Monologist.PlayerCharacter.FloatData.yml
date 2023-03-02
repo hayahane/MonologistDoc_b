@@ -21,7 +21,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: FloatData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 27
   assemblies:
   - Monologist.PlayerCharacter
@@ -66,7 +66,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSwimSpeed
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 30
   assemblies:
   - Monologist.PlayerCharacter
@@ -105,7 +105,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: accelerate
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 31
   assemblies:
   - Monologist.PlayerCharacter
@@ -144,7 +144,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: decelerate
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 32
   assemblies:
   - Monologist.PlayerCharacter

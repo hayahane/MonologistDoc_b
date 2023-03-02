@@ -19,7 +19,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: RelianceReportor
-    path: ../Assets/Scripts/Utilities/RelianceReportor.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RelianceReportor.cs
     startLine: 7
   assemblies:
   - Monologist.Utilities
@@ -54,7 +54,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: ReportLostComponent
-    path: ../Assets/Scripts/Utilities/RelianceReportor.cs
+    path: ../Bartender/Assets/Scripts/Utilities/RelianceReportor.cs
     startLine: 9
   assemblies:
   - Monologist.Utilities

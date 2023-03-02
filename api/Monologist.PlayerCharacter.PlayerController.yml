@@ -24,7 +24,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: PlayerController
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 8
   assemblies:
   - Monologist.PlayerCharacter
@@ -182,7 +182,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: characterController
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 12
   assemblies:
   - Monologist.PlayerCharacter
@@ -219,7 +219,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: controllerData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 14
   assemblies:
   - Monologist.PlayerCharacter
@@ -256,7 +256,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: targetCamera
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 16
   assemblies:
   - Monologist.PlayerCharacter
@@ -283,7 +283,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: moveStick
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 22
   assemblies:
   - Monologist.PlayerCharacter
@@ -320,7 +320,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: aimStick
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 23
   assemblies:
   - Monologist.PlayerCharacter
@@ -357,7 +357,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: dashTrigger
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerController.cs
     startLine: 24
   assemblies:
   - Monologist.PlayerCharacter

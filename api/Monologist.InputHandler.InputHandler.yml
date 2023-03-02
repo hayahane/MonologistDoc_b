@@ -18,7 +18,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: InputHandler
-    path: ../Assets/Scripts/InputHandler/InputHandler.cs
+    path: ../Bartender/Assets/Scripts/InputHandler/InputHandler.cs
     startLine: 5
   assemblies:
   - Assembly-CSharp

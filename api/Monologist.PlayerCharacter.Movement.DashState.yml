@@ -23,7 +23,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DashState
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 4
   assemblies:
   - Monologist.PlayerCharacter
@@ -60,7 +60,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: .ctor
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 8
   assemblies:
   - Monologist.PlayerCharacter
@@ -92,7 +92,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: OnEnter
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 13
   assemblies:
   - Monologist.PlayerCharacter
@@ -120,7 +120,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: Update
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 18
   assemblies:
   - Monologist.PlayerCharacter
@@ -148,7 +148,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: FixedUpdate
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 23
   assemblies:
   - Monologist.PlayerCharacter
@@ -176,7 +176,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: OnExit
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/Movement/States/DashState.cs
     startLine: 28
   assemblies:
   - Monologist.PlayerCharacter

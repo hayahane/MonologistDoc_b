@@ -23,7 +23,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: PlayerControllerData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 6
   assemblies:
   - Monologist.PlayerCharacter
@@ -68,7 +68,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: gravity
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 9
   assemblies:
   - Monologist.PlayerCharacter
@@ -95,7 +95,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: walkData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 10
   assemblies:
   - Monologist.PlayerCharacter
@@ -132,7 +132,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: floatData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 11
   assemblies:
   - Monologist.PlayerCharacter
@@ -169,7 +169,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: dashData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 12
   assemblies:
   - Monologist.PlayerCharacter
@@ -206,7 +206,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: climbData
-    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    path: ../Bartender/Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
     startLine: 13
   assemblies:
   - Monologist.PlayerCharacter
