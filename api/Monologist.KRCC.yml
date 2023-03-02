@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.KRCC
+  commentId: N:Monologist.KRCC
+  id: Monologist.KRCC
+  children:
+  - Monologist.KRCC.CheckColliderValid
+  - Monologist.KRCC.KinematicRigidbodyCharacterController
+  - Monologist.KRCC.MovingPlatform
+  langs:
+  - csharp
+  - vb
+  name: Monologist.KRCC
+  nameWithType: Monologist.KRCC
+  fullName: Monologist.KRCC
+  type: Namespace
+  assemblies:
+  - Monologist.KRCC
+references:
+- uid: Monologist.KRCC.MovingPlatform
+  commentId: T:Monologist.KRCC.MovingPlatform
+  name: MovingPlatform
+  nameWithType: MovingPlatform
+  fullName: Monologist.KRCC.MovingPlatform
+- uid: Monologist.KRCC.CheckColliderValid
+  commentId: T:Monologist.KRCC.CheckColliderValid
+  parent: Monologist.KRCC
+  name: CheckColliderValid
+  nameWithType: CheckColliderValid
+  fullName: Monologist.KRCC.CheckColliderValid
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController
+  commentId: T:Monologist.KRCC.KinematicRigidbodyCharacterController
+  parent: Monologist.KRCC
+  name: KinematicRigidbodyCharacterController
+  nameWithType: KinematicRigidbodyCharacterController
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController
+- uid: Monologist.KRCC
+  commentId: N:Monologist.KRCC
+  name: Monologist.KRCC
+  nameWithType: Monologist.KRCC
+  fullName: Monologist.KRCC
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.KRCC
+    name: KRCC
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.KRCC
+    name: KRCC

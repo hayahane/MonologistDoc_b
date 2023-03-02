@@ -1,0 +1,90 @@
+### YamlMime:TableOfContent
+- uid: Monologist.InputHandler
+  name: Monologist.InputHandler
+  items:
+  - uid: Monologist.InputHandler.InputHandler
+    name: InputHandler
+- uid: Monologist.KRCC
+  name: Monologist.KRCC
+  items:
+  - uid: Monologist.KRCC.CheckColliderValid
+    name: CheckColliderValid
+  - uid: Monologist.KRCC.KinematicRigidbodyCharacterController
+    name: KinematicRigidbodyCharacterController
+  - uid: Monologist.KRCC.MovingPlatform
+    name: MovingPlatform
+- uid: Monologist.Patterns.Singleton
+  name: Monologist.Patterns.Singleton
+  items:
+  - uid: Monologist.Patterns.Singleton.Singleton`1
+    name: Singleton<T>
+    name.vb: Singleton(Of T)
+  - uid: Monologist.Patterns.Singleton.SingletonPersisdent`1
+    name: SingletonPersisdent<T>
+    name.vb: SingletonPersisdent(Of T)
+- uid: Monologist.Patterns.State
+  name: Monologist.Patterns.State
+  items:
+  - uid: Monologist.Patterns.State.IState
+    name: IState
+  - uid: Monologist.Patterns.State.StateMachine
+    name: StateMachine
+- uid: Monologist.PlayerCharacter
+  name: Monologist.PlayerCharacter
+  items:
+  - uid: Monologist.PlayerCharacter.ClimbData
+    name: ClimbData
+  - uid: Monologist.PlayerCharacter.DashData
+    name: DashData
+  - uid: Monologist.PlayerCharacter.FloatData
+    name: FloatData
+  - uid: Monologist.PlayerCharacter.PlayerController
+    name: PlayerController
+  - uid: Monologist.PlayerCharacter.PlayerControllerData
+    name: PlayerControllerData
+  - uid: Monologist.PlayerCharacter.WalkData
+    name: WalkData
+- uid: Monologist.PlayerCharacter.Movement
+  name: Monologist.PlayerCharacter.Movement
+  items:
+  - uid: Monologist.PlayerCharacter.Movement.AirState
+    name: AirState
+  - uid: Monologist.PlayerCharacter.Movement.ClimbState
+    name: ClimbState
+  - uid: Monologist.PlayerCharacter.Movement.DashState
+    name: DashState
+  - uid: Monologist.PlayerCharacter.Movement.FallState
+    name: FallState
+  - uid: Monologist.PlayerCharacter.Movement.GroundedState
+    name: GroundedState
+  - uid: Monologist.PlayerCharacter.Movement.HoverState
+    name: HoverState
+  - uid: Monologist.PlayerCharacter.Movement.IdleState
+    name: IdleState
+  - uid: Monologist.PlayerCharacter.Movement.MoveStateMachine
+    name: MoveStateMachine
+  - uid: Monologist.PlayerCharacter.Movement.StopState
+    name: StopState
+  - uid: Monologist.PlayerCharacter.Movement.WalkState
+    name: WalkState
+- uid: Monologist.Utilities
+  name: Monologist.Utilities
+  items:
+  - uid: Monologist.Utilities.FloatingCapsule
+    name: FloatingCapsule
+  - uid: Monologist.Utilities.ReadOnlyAttribute
+    name: ReadOnlyAttribute
+  - uid: Monologist.Utilities.RelianceReportor
+    name: RelianceReportor
+  - uid: Monologist.Utilities.RigidbodyController
+    name: RigidbodyController
+- uid: Monologist.Utilities.ExtendGizmos
+  name: Monologist.Utilities.ExtendGizmos
+  items:
+  - uid: Monologist.Utilities.ExtendGizmos.ExGizmos
+    name: ExGizmos
+- uid: Monologist.Utilities.ExtendPhysics
+  name: Monologist.Utilities.ExtendPhysics
+  items:
+  - uid: Monologist.Utilities.ExtendPhysics.RaycastHitExtension
+    name: RaycastHitExtension

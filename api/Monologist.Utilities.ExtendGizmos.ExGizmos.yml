@@ -1,0 +1,493 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos
+  commentId: T:Monologist.Utilities.ExtendGizmos.ExGizmos
+  id: ExGizmos
+  parent: Monologist.Utilities.ExtendGizmos
+  children:
+  - Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  - Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  - Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  - Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  langs:
+  - csharp
+  - vb
+  name: ExGizmos
+  nameWithType: ExGizmos
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: ExGizmos
+    path: ../Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    startLine: 5
+  assemblies:
+  - Monologist.Utilities
+  namespace: Monologist.Utilities.ExtendGizmos
+  syntax:
+    content: public static class ExGizmos
+    content.vb: Public Module ExGizmos
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: Monologist.Utilities.ExtendGizmos.ExGizmos
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCircle(Vector3, Vector3, float)
+  nameWithType: ExGizmos.DrawWireCircle(Vector3, Vector3, float)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: DrawWireCircle
+    path: ../Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    startLine: 13
+  assemblies:
+  - Monologist.Utilities
+  namespace: Monologist.Utilities.ExtendGizmos
+  summary: "\nDraw a wireframe circle with radius and center.\n"
+  example: []
+  syntax:
+    content: public static void DrawWireCircle(Vector3 center, Vector3 normal, float radius)
+    parameters:
+    - id: center
+      type: UnityEngine.Vector3
+      description: The center of the circle in world space
+    - id: normal
+      type: UnityEngine.Vector3
+      description: A normal to describe the plane to draw on
+    - id: radius
+      type: System.Single
+      description: 'The radius of the circle '
+    content.vb: Public Shared Sub DrawWireCircle(center As Vector3, normal As Vector3, radius As Single)
+  overload: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle*
+  nameWithType.vb: ExGizmos.DrawWireCircle(Vector3, Vector3, Single)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  name.vb: DrawWireCircle(Vector3, Vector3, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  id: DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  parent: Monologist.Utilities.ExtendGizmos.ExGizmos
+  langs:
+  - csharp
+  - vb
+  name: DrawSolidCircle(Vector3, Vector3, float)
+  nameWithType: ExGizmos.DrawSolidCircle(Vector3, Vector3, float)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: DrawSolidCircle
+    path: ../Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    startLine: 25
+  assemblies:
+  - Monologist.Utilities
+  namespace: Monologist.Utilities.ExtendGizmos
+  summary: "\nDraw a solid circle with radius and center.\n"
+  example: []
+  syntax:
+    content: public static void DrawSolidCircle(Vector3 center, Vector3 normal, float radius)
+    parameters:
+    - id: center
+      type: UnityEngine.Vector3
+      description: The center of the circle in world space
+    - id: normal
+      type: UnityEngine.Vector3
+      description: A normal to describe the plane to draw on
+    - id: radius
+      type: System.Single
+      description: 'The radius of the circle '
+    content.vb: Public Shared Sub DrawSolidCircle(center As Vector3, normal As Vector3, radius As Single)
+  overload: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle*
+  nameWithType.vb: ExGizmos.DrawSolidCircle(Vector3, Vector3, Single)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  name.vb: DrawSolidCircle(Vector3, Vector3, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  id: DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  parent: Monologist.Utilities.ExtendGizmos.ExGizmos
+  langs:
+  - csharp
+  - vb
+  name: DrawWireArc(Vector3, Vector3, Vector3, float, float)
+  nameWithType: ExGizmos.DrawWireArc(Vector3, Vector3, Vector3, float, float)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, float, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: DrawWireArc
+    path: ../Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    startLine: 39
+  assemblies:
+  - Monologist.Utilities
+  namespace: Monologist.Utilities.ExtendGizmos
+  summary: "\nDraw a wireframe arc.\n"
+  example: []
+  syntax:
+    content: public static void DrawWireArc(Vector3 center, Vector3 normal, Vector3 from, float angle, float radius)
+    parameters:
+    - id: center
+      type: UnityEngine.Vector3
+      description: Center of the circle the arc belongs to in world space.
+    - id: normal
+      type: UnityEngine.Vector3
+      description: A normal to describe the plane to draw on.
+    - id: from
+      type: UnityEngine.Vector3
+      description: 'The direction of the point on the circle circumference, relative to the center, where the arc begins. '
+    - id: angle
+      type: System.Single
+      description: The angle of the arc, in degrees.
+    - id: radius
+      type: System.Single
+      description: he radius of the circle in world space units.
+    content.vb: Public Shared Sub DrawWireArc(center As Vector3, normal As Vector3, from As Vector3, angle As Single, radius As Single)
+  overload: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc*
+  nameWithType.vb: ExGizmos.DrawWireArc(Vector3, Vector3, Vector3, Single, Single)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
+  name.vb: DrawWireArc(Vector3, Vector3, Vector3, Single, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  id: DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  parent: Monologist.Utilities.ExtendGizmos.ExGizmos
+  langs:
+  - csharp
+  - vb
+  name: DrawWireCapsule(Vector3, Quaternion, float, float)
+  nameWithType: ExGizmos.DrawWireCapsule(Vector3, Quaternion, float, float)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3, UnityEngine.Quaternion, float, float)
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: DrawWireCapsule
+    path: ../Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    startLine: 52
+  assemblies:
+  - Monologist.Utilities
+  namespace: Monologist.Utilities.ExtendGizmos
+  summary: "\nDraw a unity native wired capsule at given place and rotation.\n"
+  example: []
+  syntax:
+    content: public static void DrawWireCapsule(Vector3 position, Quaternion rotation, float height, float radius)
+    parameters:
+    - id: position
+      type: UnityEngine.Vector3
+      description: Capsule position at worlds space.
+    - id: rotation
+      type: UnityEngine.Quaternion
+      description: Capsule rotation.
+    - id: height
+      type: System.Single
+      description: Capsule height.
+    - id: radius
+      type: System.Single
+      description: Capsule radius.
+    content.vb: Public Shared Sub DrawWireCapsule(position As Vector3, rotation As Quaternion, height As Single, radius As Single)
+  overload: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule*
+  nameWithType.vb: ExGizmos.DrawWireCapsule(Vector3, Quaternion, Single, Single)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Single)
+  name.vb: DrawWireCapsule(Vector3, Quaternion, Single, Single)
+references:
+- uid: Monologist.Utilities.ExtendGizmos
+  commentId: N:Monologist.Utilities.ExtendGizmos
+  name: Monologist.Utilities.ExtendGizmos
+  nameWithType: Monologist.Utilities.ExtendGizmos
+  fullName: Monologist.Utilities.ExtendGizmos
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Utilities
+    name: Utilities
+  - name: .
+  - uid: Monologist.Utilities.ExtendGizmos
+    name: ExtendGizmos
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Utilities
+    name: Utilities
+  - name: .
+  - uid: Monologist.Utilities.ExtendGizmos
+    name: ExtendGizmos
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle*
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle
+  name: DrawWireCircle
+  nameWithType: ExGizmos.DrawWireCircle
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle
+- uid: UnityEngine.Vector3
+  commentId: T:UnityEngine.Vector3
+  parent: UnityEngine
+  isExternal: true
+  name: Vector3
+  nameWithType: Vector3
+  fullName: UnityEngine.Vector3
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle*
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle
+  name: DrawSolidCircle
+  nameWithType: ExGizmos.DrawSolidCircle
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc*
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc
+  name: DrawWireArc
+  nameWithType: ExGizmos.DrawWireArc
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule*
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule
+  name: DrawWireCapsule
+  nameWithType: ExGizmos.DrawWireCapsule
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule
+- uid: UnityEngine.Quaternion
+  commentId: T:UnityEngine.Quaternion
+  parent: UnityEngine
+  isExternal: true
+  name: Quaternion
+  nameWithType: Quaternion
+  fullName: UnityEngine.Quaternion

@@ -1,0 +1,1555 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+
+  <head>
+    <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+      <title>Class KinematicRigidbodyCharacterController
+ | Monologist Pack </title>
+      <meta name="viewport" content="width=device-width">
+      <meta name="title" content="Class KinematicRigidbodyCharacterController
+ | Monologist Pack ">
+    
+      <link rel="shortcut icon" href="../resources/logo.png">
+      <link rel="stylesheet" href="../styles/docfx.vendor.css">
+      <link rel="stylesheet" href="../styles/docfx.css">
+      <link rel="stylesheet" href="../styles/main.css">
+      <meta property="docfx:navrel" content="../toc.html">
+      <meta property="docfx:tocrel" content="toc.html">
+    
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix" data-offset="120">
+    <div id="wrapper">
+      <header>
+
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../resources/logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+
+        <div id="search-results">
+          <div class="search-list">Search Results for <span></span></div>
+          <div class="sr-items">
+            <p><i class="glyphicon glyphicon-refresh index-loading"></i></p>
+          </div>
+          <ul id="pagination" data-first="First" data-prev="Previous" data-next="Next" data-last="Last"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController">
+
+
+  <h1 id="Monologist_KRCC_KinematicRigidbodyCharacterController" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController" class="text-break">Class KinematicRigidbodyCharacterController
+</h1>
+  <div class="markdown level0 summary"></div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">object</span></div>
+    <div class="level1"><span class="xref">UnityEngine.Object</span></div>
+    <div class="level2"><span class="xref">UnityEngine.Component</span></div>
+    <div class="level3"><span class="xref">UnityEngine.Behaviour</span></div>
+    <div class="level4"><span class="xref">UnityEngine.MonoBehaviour</span></div>
+    <div class="level5"><span class="xref">KinematicRigidbodyCharacterController</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.Invoke(string, float)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.InvokeRepeating(string, float, float)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.CancelInvoke(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.IsInvoking(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StartCoroutine_Auto(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(System.Collections.IEnumerator)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(UnityEngine.Coroutine)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopCoroutine(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.StopAllCoroutines()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.print(object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.destroyCancellationToken</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.useGUILayout</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.MonoBehaviour.runInEditMode</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.enabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Behaviour.isActiveAndEnabled</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent(System.Type, out UnityEngine.Component)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.TryGetComponent&lt;T&gt;(out T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponent(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(bool, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInChildren&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;(bool, System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponentsInParent&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents(System.Type, System.Collections.Generic.List&lt;UnityEngine.Component&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;(System.Collections.Generic.List&lt;T&gt;)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.GetComponents&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.CompareTag(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(string, object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessageUpwards(string, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(string, object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.SendMessage(string, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(string, object, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(string, object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(string)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.BroadcastMessage(string, UnityEngine.SendMessageOptions)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.transform</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.gameObject</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Component.tag</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetInstanceID()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.GetHashCode()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Equals(object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate(UnityEngine.Object, UnityEngine.Transform, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Instantiate&lt;T&gt;(T, UnityEngine.Transform, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object, float)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.Destroy(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyImmediate(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType(System.Type, UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DontDestroyOnLoad(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object, float)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.DestroyObject(UnityEngine.Object)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindSceneObjectsOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeIncludingAssets(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfType&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsByType&lt;T&gt;(UnityEngine.FindObjectsInactive, UnityEngine.FindObjectsSortMode)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType&lt;T&gt;(bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType&lt;T&gt;(UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectsOfTypeAll(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindObjectOfType(System.Type, bool)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindFirstObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.FindAnyObjectByType(System.Type, UnityEngine.FindObjectsInactive)</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.ToString()</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.name</span>
+    </div>
+    <div>
+      <span class="xref">UnityEngine.Object.hideFlags</span>
+    </div>
+    <div>
+      <span class="xref">object.Equals(object, object)</span>
+    </div>
+    <div>
+      <span class="xref">object.GetType()</span>
+    </div>
+    <div>
+      <span class="xref">object.MemberwiseClone()</span>
+    </div>
+    <div>
+      <span class="xref">object.ReferenceEquals(object, object)</span>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <span class="xref">Monologist</span>.<a class="xref" href="Monologist.KRCC.html">KRCC</a></h6>
+  <h6><strong>Assembly</strong>: Monologist.KRCC.dll</h6>
+  <h5 id="Monologist_KRCC_KinematicRigidbodyCharacterController_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[AddComponentMenu(&quot;Physics/KRCC/Kinematic Rigidbody CC&quot;)]
+[RequireComponent(typeof(Rigidbody))]
+[RequireComponent(typeof(CapsuleCollider))]
+public class KinematicRigidbodyCharacterController : MonoBehaviour</code></pre>
+  </div>
+  <h3 id="fields">Fields
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_affectCharacterVelocity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.affectCharacterVelocity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L92">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_affectCharacterVelocity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.affectCharacterVelocity">affectCharacterVelocity</h4>
+  <div class="markdown level1 summary"><p>Dose rigidbody collision affect character velocity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool affectCharacterVelocity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_energyLossFactor.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.energyLossFactor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L109">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_energyLossFactor" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.energyLossFactor">energyLossFactor</h4>
+  <div class="markdown level1 summary"><p>Determines how much energy lost when collided.
+1 means absolute elastic collision.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0, 1)]
+public float energyLossFactor</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_gravity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.gravity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L113">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_gravity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.gravity">gravity</h4>
+  <div class="markdown level1 summary"><p>Default gravity. Will not imply automatic.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 gravity</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_groundLayer.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L141">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_groundLayer" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer">groundLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask groundLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_interactLayer.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L140">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_interactLayer" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer">interactLayer</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LayerMask interactLayer</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxIterations.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L26">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxIterations" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations">maxIterations</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int maxIterations</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxSlopeAngle.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L117">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxSlopeAngle" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle">maxSlopeAngle</h4>
+  <div class="markdown level1 summary"><p>Max slope angle controller can climb.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0, 90)]
+public float maxSlopeAngle</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxStepHeight.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxStepHeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L121">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxStepHeight" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxStepHeight">maxStepHeight</h4>
+  <div class="markdown level1 summary"><p>Max height character can step onto.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Min(0.1)]
+public float maxStepHeight</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_pushRigidbody.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.pushRigidbody%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L88">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_pushRigidbody" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.pushRigidbody">pushRigidbody</h4>
+  <div class="markdown level1 summary"><p>Enable handling rigidbody pushing.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool pushRigidbody</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_snapGround.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.snapGround%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L84">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_snapGround" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.snapGround">snapGround</h4>
+  <div class="markdown level1 summary"><p>Enable snapping to the ground.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool snapGround</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlide.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlide%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L80">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlide" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlide">solveSlide</h4>
+  <div class="markdown level1 summary"><p>Enable sliding against wall.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool solveSlide</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlope.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlope%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L72">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlope" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlope">solveSlope</h4>
+  <div class="markdown level1 summary"><p>Enable slope solving.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool solveSlope</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveStepping.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveStepping%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L76">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveStepping" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveStepping">solveStepping</h4>
+  <div class="markdown level1 summary"><p>Enable stepping.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool solveStepping</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L63">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight">CapsuleHeight</h4>
+  <div class="markdown level1 summary"><p>Height of controller's capsule shape.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CapsuleHeight { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L59">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius">CapsuleRadius</h4>
+  <div class="markdown level1 summary"><p>Radius of controller's capsule shape.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float CapsuleRadius { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L46">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition">CharacterPosition</h4>
+  <div class="markdown level1 summary"><p>Character controller's current position.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 CharacterPosition { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L51">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation">CharacterRotation</h4>
+  <div class="markdown level1 summary"><p>Character controller's current rotation.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Quaternion CharacterRotation { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L41">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp">CharacterUp</h4>
+  <div class="markdown level1 summary"><p>Character controller's current up-axis.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 CharacterUp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L129">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity">CurrentVelocity</h4>
+  <div class="markdown level1 summary"><p>Current character velocity, calculated using
+(currentPos - previousPos) / fixed delta time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Vector3 CurrentVelocity { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L143">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded">IsGrounded</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsGrounded { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+</h3>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L841">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_UnityEngine_Transform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)">AttachToMovingPlatform(Transform)</h4>
+  <div class="markdown level1 summary"><p>Attach this character controller to a moving platform.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void AttachToMovingPlatform(Transform platform)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">platform</span></td>
+        <td><p>Transform of the moving platform.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_LayerMask_UnityEngine_Collider___System_Single_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CUnityEngine.LayerMask%2CUnityEngine.Collider%5B%5D%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L708">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_LayerMask_UnityEngine_Collider___System_Single_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.LayerMask,UnityEngine.Collider[],System.Single)">CharacterOverlap(Vector3, Quaternion, LayerMask, Collider[], float)</h4>
+  <div class="markdown level1 summary"><p>Overlap character capsule to get collided collider.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CharacterOverlap(Vector3 position, Quaternion rotation, LayerMask queryLayer, Collider[] colliders, float overlapDetectionExtend = 0)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Overlap capsule position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Overlap capsule position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td><span class="parametername">queryLayer</span></td>
+        <td><p>LayerMask to query collision.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Collider</span>[]</td>
+        <td><span class="parametername">colliders</span></td>
+        <td><p>Collider cache.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">overlapDetectionExtend</span></td>
+        <td><p>Extend capsule size to get a larger detection (usually not used).</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>Count of colliders.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3%2CUnityEngine.Vector3%2CSystem.Single%2CUnityEngine.RaycastHit%40%2CUnityEngine.LayerMask%2CUnityEngine.RaycastHit%5B%5D%2CMonologist.KRCC.CheckColliderValid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L745">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)">CharacterRaycast(Vector3, Vector3, float, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)</h4>
+  <div class="markdown level1 summary"><p>Raycast test on certain direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CharacterRaycast(Vector3 position, Vector3 direction, float distance, out RaycastHit closetHit, LayerMask queryLayer, RaycastHit[] hits, CheckColliderValid checkColliderValid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Ray start point.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Raycast direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>Raycast distance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RaycastHit</span></td>
+        <td><span class="parametername">closetHit</span></td>
+        <td><p>Closet raycastHit information.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td><span class="parametername">queryLayer</span></td>
+        <td><p>LayerMask to query collision.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RaycastHit</span>[]</td>
+        <td><span class="parametername">hits</span></td>
+        <td><p>Raycast hits cache.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Monologist.KRCC.CheckColliderValid.html">CheckColliderValid</a></td>
+        <td><span class="parametername">checkColliderValid</span></td>
+        <td><p>Delegate to define if a collider is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>Count of raycast hits.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CUnityEngine.Vector3%2CSystem.Single%2CSystem.Boolean%40%2CUnityEngine.RaycastHit%40%2CUnityEngine.LayerMask%2CUnityEngine.RaycastHit%5B%5D%2CMonologist.KRCC.CheckColliderValid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L786">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)">CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)</h4>
+  <div class="markdown level1 summary"><p>Capsule sweep test on certain direction.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int CharacterSweepTest(Vector3 position, Quaternion rotation, Vector3 direction, float distance, out bool isStartPenetrated, out RaycastHit closetHitInfo, LayerMask queryLayer, RaycastHit[] sweepHits, CheckColliderValid checkColliderValid)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Sweep test start position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Capsule rotation.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">direction</span></td>
+        <td><p>Sweep test direction.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td><span class="parametername">distance</span></td>
+        <td><p>Sweep test distance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">bool</span></td>
+        <td><span class="parametername">isStartPenetrated</span></td>
+        <td><p>Return if the character is penetrated with colliders at the sweep
+start.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RaycastHit</span></td>
+        <td><span class="parametername">closetHitInfo</span></td>
+        <td><p>Returns information of the closet hit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.LayerMask</span></td>
+        <td><span class="parametername">queryLayer</span></td>
+        <td><p>LayerMask to query collision.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">UnityEngine.RaycastHit</span>[]</td>
+        <td><span class="parametername">sweepHits</span></td>
+        <td><p>Sweep hits cache.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="Monologist.KRCC.CheckColliderValid.html">CheckColliderValid</a></td>
+        <td><span class="parametername">checkColliderValid</span></td>
+        <td><p>Delegate to define if a collider is valid.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">int</span></td>
+        <td><p>Count of hits.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L852">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform">DetachFromMovingPlatform()</h4>
+  <div class="markdown level1 summary"><p>Detach this character controller from a moving platform,
+which means not to move along with or rotate with it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void DetachFromMovingPlatform()</code></pre>
+  </div>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L862">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_UnityEngine_Vector3_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)">MoveByVelocity(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Set character movement by velocity,
+which means the motion will be velocity multiply fixed delta time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveByVelocity(Vector3 velocity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">velocity</span></td>
+        <td><p>Given velocity for moving the character controller.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation(UnityEngine.Quaternion)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L871">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_UnityEngine_Quaternion_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation(UnityEngine.Quaternion)">MoveRotation(Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Set directly the rotation, calculate rotation outside the controller.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void MoveRotation(Quaternion rot)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rot</span></td>
+        <td><p>Character rotation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition(UnityEngine.Vector3)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L882">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_UnityEngine_Vector3_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition(UnityEngine.Vector3)">SetPosition(Vector3)</h4>
+  <div class="markdown level1 summary"><p>Set character position directly
+NOTE: This method will not affect character velocity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetPosition(Vector3 position)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Vector3</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Target position.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation(UnityEngine.Quaternion)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L892">View Source</a>
+  </span>
+  <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation*"></a>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_UnityEngine_Quaternion_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation(UnityEngine.Quaternion)">SetRotation(Quaternion)</h4>
+  <div class="markdown level1 summary"><p>Set character rotation directly (not using Rigidbody.MoveRotation()).
+NOTE: This method will not affect character velocity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void SetRotation(Quaternion rotation)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Quaternion</span></td>
+        <td><span class="parametername">rotation</span></td>
+        <td><p>Target rotation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+</article>
+          </div>
+
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A" class="contribution-link">Improve this Doc</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L12" class="contribution-link">View Source</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+                <h5>In This Article</h5>
+                <div></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+      &#0169; 2023- Monologist
+      
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

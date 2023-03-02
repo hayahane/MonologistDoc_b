@@ -1,0 +1,82 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.KRCC.CheckColliderValid
+  commentId: T:Monologist.KRCC.CheckColliderValid
+  id: CheckColliderValid
+  parent: Monologist.KRCC
+  children: []
+  langs:
+  - csharp
+  - vb
+  name: CheckColliderValid
+  nameWithType: CheckColliderValid
+  fullName: Monologist.KRCC.CheckColliderValid
+  type: Delegate
+  source:
+    remote:
+      path: Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: CheckColliderValid
+    path: ../Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    startLine: 9
+  assemblies:
+  - Monologist.KRCC
+  namespace: Monologist.KRCC
+  summary: "\nDefault check if a collider is valid\n"
+  example: []
+  syntax:
+    content: public delegate bool CheckColliderValid(Collider coll)
+    parameters:
+    - id: coll
+      type: UnityEngine.Collider
+    return:
+      type: System.Boolean
+    content.vb: Public Delegate Function CheckColliderValid(coll As Collider) As Boolean
+references:
+- uid: Monologist.KRCC
+  commentId: N:Monologist.KRCC
+  name: Monologist.KRCC
+  nameWithType: Monologist.KRCC
+  fullName: Monologist.KRCC
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.KRCC
+    name: KRCC
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.KRCC
+    name: KRCC
+- uid: UnityEngine.Collider
+  commentId: T:UnityEngine.Collider
+  parent: UnityEngine
+  isExternal: true
+  name: Collider
+  nameWithType: Collider
+  fullName: UnityEngine.Collider
+- uid: System.Boolean
+  commentId: T:System.Boolean
+  parent: System
+  isExternal: true
+  name: bool
+  nameWithType: bool
+  fullName: bool
+  nameWithType.vb: Boolean
+  fullName.vb: Boolean
+  name.vb: Boolean
+- uid: UnityEngine
+  commentId: N:UnityEngine
+  isExternal: true
+  name: UnityEngine
+  nameWithType: UnityEngine
+  fullName: UnityEngine
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System

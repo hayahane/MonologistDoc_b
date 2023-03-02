@@ -1,0 +1,65 @@
+{
+    "metadata": [
+        {
+            "src": [
+                {
+                    "src": "..",
+                    "files": [
+                        "**.csproj"
+                    ],
+                    "exclude": [
+                        "Assets/Plugins/**"
+                    ]
+                }
+            ],
+            "filter": "filterConfig.yml",
+            "dest": "api"
+        }
+    ],
+    "build": {
+        "globalMetadata": {
+            "_appTitle": "Monologist Pack",
+            "_appFooter": "&#0169; 2023- Monologist",
+            "_appFaviconPath" : "resources/logo.png",
+            "_appLogoPath": "resources/logo.png",
+            "_enableSearch": true
+        },
+        "content": [
+            {
+                "files": [
+                    "toc.yml",
+                    "index.md"
+                ]
+            },
+            {
+                "src": "api",
+                "files": [
+                    "*.yml"
+                ],
+                "dest": "api"
+            },
+            {
+                "src": "manual",
+                "files": [
+                    "toc.yml",
+                    "*.md"
+                ],
+                "dest": "manual"
+            }
+        ],
+        "dest": "_site",
+        "resource": [
+            {
+                "files": [
+                    "resources/**/*"
+                ]
+            }
+        ]
+        },
+        "xref": [
+            "https://normanderwan.github.io/UnityXrefMaps/xrefmap.yml"
+        ],
+        "xrefService": [
+            "https://xref.docs.microsoft.com/query?uid={uid}"
+        ]
+}

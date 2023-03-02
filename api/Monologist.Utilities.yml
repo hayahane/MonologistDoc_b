@@ -1,0 +1,40 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.Utilities
+  commentId: N:Monologist.Utilities
+  id: Monologist.Utilities
+  children:
+  - Monologist.Utilities.FloatingCapsule
+  - Monologist.Utilities.ReadOnlyAttribute
+  - Monologist.Utilities.RelianceReportor
+  - Monologist.Utilities.RigidbodyController
+  langs:
+  - csharp
+  - vb
+  name: Monologist.Utilities
+  nameWithType: Monologist.Utilities
+  fullName: Monologist.Utilities
+  type: Namespace
+  assemblies:
+  - Monologist.Utilities
+references:
+- uid: Monologist.Utilities.ReadOnlyAttribute
+  commentId: T:Monologist.Utilities.ReadOnlyAttribute
+  name: ReadOnlyAttribute
+  nameWithType: ReadOnlyAttribute
+  fullName: Monologist.Utilities.ReadOnlyAttribute
+- uid: Monologist.Utilities.RigidbodyController
+  commentId: T:Monologist.Utilities.RigidbodyController
+  name: RigidbodyController
+  nameWithType: RigidbodyController
+  fullName: Monologist.Utilities.RigidbodyController
+- uid: Monologist.Utilities.FloatingCapsule
+  commentId: T:Monologist.Utilities.FloatingCapsule
+  name: FloatingCapsule
+  nameWithType: FloatingCapsule
+  fullName: Monologist.Utilities.FloatingCapsule
+- uid: Monologist.Utilities.RelianceReportor
+  commentId: T:Monologist.Utilities.RelianceReportor
+  name: RelianceReportor
+  nameWithType: RelianceReportor
+  fullName: Monologist.Utilities.RelianceReportor

@@ -1,0 +1,400 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.PlayerCharacter.FloatData
+  commentId: T:Monologist.PlayerCharacter.FloatData
+  id: FloatData
+  parent: Monologist.PlayerCharacter
+  children:
+  - Monologist.PlayerCharacter.FloatData.accelerate
+  - Monologist.PlayerCharacter.FloatData.decelerate
+  - Monologist.PlayerCharacter.FloatData.maxSwimSpeed
+  langs:
+  - csharp
+  - vb
+  name: FloatData
+  nameWithType: FloatData
+  fullName: Monologist.PlayerCharacter.FloatData
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: FloatData
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    startLine: 27
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter
+  syntax:
+    content: >-
+      [Serializable]
+
+      public class FloatData
+    content.vb: >-
+      <Serializable>
+
+      Public Class FloatData
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+  attributes:
+  - type: System.SerializableAttribute
+    ctor: System.SerializableAttribute.#ctor
+    arguments: []
+- uid: Monologist.PlayerCharacter.FloatData.maxSwimSpeed
+  commentId: F:Monologist.PlayerCharacter.FloatData.maxSwimSpeed
+  id: maxSwimSpeed
+  parent: Monologist.PlayerCharacter.FloatData
+  langs:
+  - csharp
+  - vb
+  name: maxSwimSpeed
+  nameWithType: FloatData.maxSwimSpeed
+  fullName: Monologist.PlayerCharacter.FloatData.maxSwimSpeed
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: maxSwimSpeed
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    startLine: 30
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter
+  syntax:
+    content: >-
+      [Min(0)]
+
+      public float maxSwimSpeed
+    return:
+      type: System.Single
+    content.vb: >-
+      <Min(0)>
+
+      Public maxSwimSpeed As Single
+  attributes:
+  - type: UnityEngine.MinAttribute
+    ctor: UnityEngine.MinAttribute.#ctor(System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+- uid: Monologist.PlayerCharacter.FloatData.accelerate
+  commentId: F:Monologist.PlayerCharacter.FloatData.accelerate
+  id: accelerate
+  parent: Monologist.PlayerCharacter.FloatData
+  langs:
+  - csharp
+  - vb
+  name: accelerate
+  nameWithType: FloatData.accelerate
+  fullName: Monologist.PlayerCharacter.FloatData.accelerate
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: accelerate
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    startLine: 31
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter
+  syntax:
+    content: >-
+      [Min(0)]
+
+      public float accelerate
+    return:
+      type: System.Single
+    content.vb: >-
+      <Min(0)>
+
+      Public accelerate As Single
+  attributes:
+  - type: UnityEngine.MinAttribute
+    ctor: UnityEngine.MinAttribute.#ctor(System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+- uid: Monologist.PlayerCharacter.FloatData.decelerate
+  commentId: F:Monologist.PlayerCharacter.FloatData.decelerate
+  id: decelerate
+  parent: Monologist.PlayerCharacter.FloatData
+  langs:
+  - csharp
+  - vb
+  name: decelerate
+  nameWithType: FloatData.decelerate
+  fullName: Monologist.PlayerCharacter.FloatData.decelerate
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: decelerate
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/PlayerControllerData.cs
+    startLine: 32
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter
+  syntax:
+    content: >-
+      [Min(0)]
+
+      public float decelerate
+    return:
+      type: System.Single
+    content.vb: >-
+      <Min(0)>
+
+      Public decelerate As Single
+  attributes:
+  - type: UnityEngine.MinAttribute
+    ctor: UnityEngine.MinAttribute.#ctor(System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+references:
+- uid: Monologist.PlayerCharacter
+  commentId: N:Monologist.PlayerCharacter
+  name: Monologist.PlayerCharacter
+  nameWithType: Monologist.PlayerCharacter
+  fullName: Monologist.PlayerCharacter
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.PlayerCharacter
+    name: PlayerCharacter
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.PlayerCharacter
+    name: PlayerCharacter
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: System.Single
+  commentId: T:System.Single
+  parent: System
+  isExternal: true
+  name: float
+  nameWithType: float
+  fullName: float
+  nameWithType.vb: Single
+  fullName.vb: Single
+  name.vb: Single

@@ -1,0 +1,684 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.PlayerCharacter.Movement.AirState
+  commentId: T:Monologist.PlayerCharacter.Movement.AirState
+  id: AirState
+  parent: Monologist.PlayerCharacter.Movement
+  children:
+  - Monologist.PlayerCharacter.Movement.AirState.#ctor(Monologist.PlayerCharacter.Movement.MoveStateMachine)
+  - Monologist.PlayerCharacter.Movement.AirState.BindInputActions
+  - Monologist.PlayerCharacter.Movement.AirState.CancelInputActions
+  - Monologist.PlayerCharacter.Movement.AirState.FixedUpdate
+  - Monologist.PlayerCharacter.Movement.AirState.OnEnter
+  - Monologist.PlayerCharacter.Movement.AirState.OnExit
+  - Monologist.PlayerCharacter.Movement.AirState.Update
+  langs:
+  - csharp
+  - vb
+  name: AirState
+  nameWithType: AirState
+  fullName: Monologist.PlayerCharacter.Movement.AirState
+  type: Class
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: AirState
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 5
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: 'public class AirState : MovementState, IState'
+    content.vb: Public Class AirState Inherits MovementState Implements IState
+  inheritance:
+  - System.Object
+  - Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  derivedClasses:
+  - Monologist.PlayerCharacter.Movement.ClimbState
+  - Monologist.PlayerCharacter.Movement.FallState
+  - Monologist.PlayerCharacter.Movement.HoverState
+  implements:
+  - Monologist.Patterns.State.IState
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Monologist.PlayerCharacter.Movement.AirState.#ctor(Monologist.PlayerCharacter.Movement.MoveStateMachine)
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.#ctor(Monologist.PlayerCharacter.Movement.MoveStateMachine)
+  id: '#ctor(Monologist.PlayerCharacter.Movement.MoveStateMachine)'
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: AirState(MoveStateMachine)
+  nameWithType: AirState.AirState(MoveStateMachine)
+  fullName: Monologist.PlayerCharacter.Movement.AirState.AirState(Monologist.PlayerCharacter.Movement.MoveStateMachine)
+  type: Constructor
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: .ctor
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 7
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: public AirState(MoveStateMachine stateMachine)
+    parameters:
+    - id: stateMachine
+      type: Monologist.PlayerCharacter.Movement.MoveStateMachine
+    content.vb: Public Sub New(stateMachine As MoveStateMachine)
+  overload: Monologist.PlayerCharacter.Movement.AirState.#ctor*
+  nameWithType.vb: AirState.New(MoveStateMachine)
+  fullName.vb: Monologist.PlayerCharacter.Movement.AirState.New(Monologist.PlayerCharacter.Movement.MoveStateMachine)
+  name.vb: New(MoveStateMachine)
+- uid: Monologist.PlayerCharacter.Movement.AirState.OnEnter
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.OnEnter
+  id: OnEnter
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: OnEnter()
+  nameWithType: AirState.OnEnter()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.OnEnter()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: OnEnter
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 11
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: public override void OnEnter()
+    content.vb: Public Overrides Sub OnEnter()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter
+  overload: Monologist.PlayerCharacter.Movement.AirState.OnEnter*
+- uid: Monologist.PlayerCharacter.Movement.AirState.Update
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.Update
+  id: Update
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: AirState.Update()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.Update()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: Update
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 16
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: public override void Update()
+    content.vb: Public Overrides Sub Update()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update
+  overload: Monologist.PlayerCharacter.Movement.AirState.Update*
+- uid: Monologist.PlayerCharacter.Movement.AirState.FixedUpdate
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.FixedUpdate
+  id: FixedUpdate
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: FixedUpdate()
+  nameWithType: AirState.FixedUpdate()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.FixedUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: FixedUpdate
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 20
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: public override void FixedUpdate()
+    content.vb: Public Overrides Sub FixedUpdate()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate
+  overload: Monologist.PlayerCharacter.Movement.AirState.FixedUpdate*
+- uid: Monologist.PlayerCharacter.Movement.AirState.OnExit
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.OnExit
+  id: OnExit
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: OnExit()
+  nameWithType: AirState.OnExit()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.OnExit()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: OnExit
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 25
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: public override void OnExit()
+    content.vb: Public Overrides Sub OnExit()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit
+  overload: Monologist.PlayerCharacter.Movement.AirState.OnExit*
+- uid: Monologist.PlayerCharacter.Movement.AirState.BindInputActions
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.BindInputActions
+  id: BindInputActions
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: BindInputActions()
+  nameWithType: AirState.BindInputActions()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.BindInputActions()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: BindInputActions
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 31
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: protected override void BindInputActions()
+    content.vb: Protected Overrides Sub BindInputActions()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions
+  overload: Monologist.PlayerCharacter.Movement.AirState.BindInputActions*
+- uid: Monologist.PlayerCharacter.Movement.AirState.CancelInputActions
+  commentId: M:Monologist.PlayerCharacter.Movement.AirState.CancelInputActions
+  id: CancelInputActions
+  parent: Monologist.PlayerCharacter.Movement.AirState
+  langs:
+  - csharp
+  - vb
+  name: CancelInputActions()
+  nameWithType: AirState.CancelInputActions()
+  fullName: Monologist.PlayerCharacter.Movement.AirState.CancelInputActions()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: CancelInputActions
+    path: ../Assets/Scripts/PlayerCharacter/Scripts/Movement/States/OffStateState/AirState.cs
+    startLine: 36
+  assemblies:
+  - Monologist.PlayerCharacter
+  namespace: Monologist.PlayerCharacter.Movement
+  syntax:
+    content: protected override void CancelInputActions()
+    content.vb: Protected Overrides Sub CancelInputActions()
+  overridden: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions
+  overload: Monologist.PlayerCharacter.Movement.AirState.CancelInputActions*
+references:
+- uid: Monologist.PlayerCharacter.Movement
+  commentId: N:Monologist.PlayerCharacter.Movement
+  name: Monologist.PlayerCharacter.Movement
+  nameWithType: Monologist.PlayerCharacter.Movement
+  fullName: Monologist.PlayerCharacter.Movement
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.PlayerCharacter
+    name: PlayerCharacter
+  - name: .
+  - uid: Monologist.PlayerCharacter.Movement
+    name: Movement
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.PlayerCharacter
+    name: PlayerCharacter
+  - name: .
+  - uid: Monologist.PlayerCharacter.Movement
+    name: Movement
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  commentId: T:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States
+  name: MovementState
+  nameWithType: MovementState
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+- uid: Monologist.Patterns.State.IState
+  commentId: T:Monologist.Patterns.State.IState
+  parent: Monologist.Patterns.State
+  name: IState
+  nameWithType: IState
+  fullName: Monologist.Patterns.State.IState
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States
+  commentId: N:Bartender.GameLogic.PlayerCharacter.Movement.States
+  name: Bartender.GameLogic.PlayerCharacter.Movement.States
+  nameWithType: Bartender.GameLogic.PlayerCharacter.Movement.States
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States
+  spec.csharp:
+  - uid: Bartender
+    name: Bartender
+  - name: .
+  - uid: Bartender.GameLogic
+    name: GameLogic
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter
+    name: PlayerCharacter
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement
+    name: Movement
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States
+    name: States
+  spec.vb:
+  - uid: Bartender
+    name: Bartender
+  - name: .
+  - uid: Bartender.GameLogic
+    name: GameLogic
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter
+    name: PlayerCharacter
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement
+    name: Movement
+  - name: .
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States
+    name: States
+- uid: Monologist.Patterns.State
+  commentId: N:Monologist.Patterns.State
+  name: Monologist.Patterns.State
+  nameWithType: Monologist.Patterns.State
+  fullName: Monologist.Patterns.State
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
+- uid: Monologist.PlayerCharacter.Movement.AirState.#ctor*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.#ctor
+  name: AirState
+  nameWithType: AirState.AirState
+  fullName: Monologist.PlayerCharacter.Movement.AirState.AirState
+  nameWithType.vb: AirState.New
+  fullName.vb: Monologist.PlayerCharacter.Movement.AirState.New
+  name.vb: New
+- uid: Monologist.PlayerCharacter.Movement.MoveStateMachine
+  commentId: T:Monologist.PlayerCharacter.Movement.MoveStateMachine
+  parent: Monologist.PlayerCharacter.Movement
+  name: MoveStateMachine
+  nameWithType: MoveStateMachine
+  fullName: Monologist.PlayerCharacter.Movement.MoveStateMachine
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: OnEnter()
+  nameWithType: MovementState.OnEnter()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter
+    name: OnEnter
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnEnter
+    name: OnEnter
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.OnEnter*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.OnEnter
+  name: OnEnter
+  nameWithType: AirState.OnEnter
+  fullName: Monologist.PlayerCharacter.Movement.AirState.OnEnter
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: Update()
+  nameWithType: MovementState.Update()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update
+    name: Update
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.Update
+    name: Update
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.Update*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.Update
+  name: Update
+  nameWithType: AirState.Update
+  fullName: Monologist.PlayerCharacter.Movement.AirState.Update
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: FixedUpdate()
+  nameWithType: MovementState.FixedUpdate()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate
+    name: FixedUpdate
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.FixedUpdate
+    name: FixedUpdate
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.FixedUpdate*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.FixedUpdate
+  name: FixedUpdate
+  nameWithType: AirState.FixedUpdate
+  fullName: Monologist.PlayerCharacter.Movement.AirState.FixedUpdate
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: OnExit()
+  nameWithType: MovementState.OnExit()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit
+    name: OnExit
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.OnExit
+    name: OnExit
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.OnExit*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.OnExit
+  name: OnExit
+  nameWithType: AirState.OnExit
+  fullName: Monologist.PlayerCharacter.Movement.AirState.OnExit
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: BindInputActions()
+  nameWithType: MovementState.BindInputActions()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions
+    name: BindInputActions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.BindInputActions
+    name: BindInputActions
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.BindInputActions*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.BindInputActions
+  name: BindInputActions
+  nameWithType: AirState.BindInputActions
+  fullName: Monologist.PlayerCharacter.Movement.AirState.BindInputActions
+- uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions
+  commentId: M:Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions
+  parent: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState
+  name: CancelInputActions()
+  nameWithType: MovementState.CancelInputActions()
+  fullName: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions()
+  spec.csharp:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions
+    name: CancelInputActions
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: Bartender.GameLogic.PlayerCharacter.Movement.States.MovementState.CancelInputActions
+    name: CancelInputActions
+  - name: (
+  - name: )
+- uid: Monologist.PlayerCharacter.Movement.AirState.CancelInputActions*
+  commentId: Overload:Monologist.PlayerCharacter.Movement.AirState.CancelInputActions
+  name: CancelInputActions
+  nameWithType: AirState.CancelInputActions
+  fullName: Monologist.PlayerCharacter.Movement.AirState.CancelInputActions

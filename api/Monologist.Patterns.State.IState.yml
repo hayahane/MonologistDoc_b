@@ -1,0 +1,180 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.Patterns.State.IState
+  commentId: T:Monologist.Patterns.State.IState
+  id: IState
+  parent: Monologist.Patterns.State
+  children:
+  - Monologist.Patterns.State.IState.FixedUpdate
+  - Monologist.Patterns.State.IState.OnEnter
+  - Monologist.Patterns.State.IState.OnExit
+  - Monologist.Patterns.State.IState.Update
+  langs:
+  - csharp
+  - vb
+  name: IState
+  nameWithType: IState
+  fullName: Monologist.Patterns.State.IState
+  type: Interface
+  source:
+    remote:
+      path: Assets/Scripts/Patterns/StateMachine/IState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: IState
+    path: ../Assets/Scripts/Patterns/StateMachine/IState.cs
+    startLine: 6
+  assemblies:
+  - Monologist.Patterns
+  namespace: Monologist.Patterns.State
+  syntax:
+    content: public interface IState
+    content.vb: Public Interface IState
+- uid: Monologist.Patterns.State.IState.OnEnter
+  commentId: M:Monologist.Patterns.State.IState.OnEnter
+  id: OnEnter
+  parent: Monologist.Patterns.State.IState
+  langs:
+  - csharp
+  - vb
+  name: OnEnter()
+  nameWithType: IState.OnEnter()
+  fullName: Monologist.Patterns.State.IState.OnEnter()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Patterns/StateMachine/IState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: OnEnter
+    path: ../Assets/Scripts/Patterns/StateMachine/IState.cs
+    startLine: 8
+  assemblies:
+  - Monologist.Patterns
+  namespace: Monologist.Patterns.State
+  syntax:
+    content: void OnEnter()
+    content.vb: Sub OnEnter()
+  overload: Monologist.Patterns.State.IState.OnEnter*
+- uid: Monologist.Patterns.State.IState.Update
+  commentId: M:Monologist.Patterns.State.IState.Update
+  id: Update
+  parent: Monologist.Patterns.State.IState
+  langs:
+  - csharp
+  - vb
+  name: Update()
+  nameWithType: IState.Update()
+  fullName: Monologist.Patterns.State.IState.Update()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Patterns/StateMachine/IState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: Update
+    path: ../Assets/Scripts/Patterns/StateMachine/IState.cs
+    startLine: 9
+  assemblies:
+  - Monologist.Patterns
+  namespace: Monologist.Patterns.State
+  syntax:
+    content: void Update()
+    content.vb: Sub Update()
+  overload: Monologist.Patterns.State.IState.Update*
+- uid: Monologist.Patterns.State.IState.FixedUpdate
+  commentId: M:Monologist.Patterns.State.IState.FixedUpdate
+  id: FixedUpdate
+  parent: Monologist.Patterns.State.IState
+  langs:
+  - csharp
+  - vb
+  name: FixedUpdate()
+  nameWithType: IState.FixedUpdate()
+  fullName: Monologist.Patterns.State.IState.FixedUpdate()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Patterns/StateMachine/IState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: FixedUpdate
+    path: ../Assets/Scripts/Patterns/StateMachine/IState.cs
+    startLine: 10
+  assemblies:
+  - Monologist.Patterns
+  namespace: Monologist.Patterns.State
+  syntax:
+    content: void FixedUpdate()
+    content.vb: Sub FixedUpdate()
+  overload: Monologist.Patterns.State.IState.FixedUpdate*
+- uid: Monologist.Patterns.State.IState.OnExit
+  commentId: M:Monologist.Patterns.State.IState.OnExit
+  id: OnExit
+  parent: Monologist.Patterns.State.IState
+  langs:
+  - csharp
+  - vb
+  name: OnExit()
+  nameWithType: IState.OnExit()
+  fullName: Monologist.Patterns.State.IState.OnExit()
+  type: Method
+  source:
+    remote:
+      path: Assets/Scripts/Patterns/StateMachine/IState.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: OnExit
+    path: ../Assets/Scripts/Patterns/StateMachine/IState.cs
+    startLine: 11
+  assemblies:
+  - Monologist.Patterns
+  namespace: Monologist.Patterns.State
+  syntax:
+    content: void OnExit()
+    content.vb: Sub OnExit()
+  overload: Monologist.Patterns.State.IState.OnExit*
+references:
+- uid: Monologist.Patterns.State
+  commentId: N:Monologist.Patterns.State
+  name: Monologist.Patterns.State
+  nameWithType: Monologist.Patterns.State
+  fullName: Monologist.Patterns.State
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
+- uid: Monologist.Patterns.State.IState.OnEnter*
+  commentId: Overload:Monologist.Patterns.State.IState.OnEnter
+  name: OnEnter
+  nameWithType: IState.OnEnter
+  fullName: Monologist.Patterns.State.IState.OnEnter
+- uid: Monologist.Patterns.State.IState.Update*
+  commentId: Overload:Monologist.Patterns.State.IState.Update
+  name: Update
+  nameWithType: IState.Update
+  fullName: Monologist.Patterns.State.IState.Update
+- uid: Monologist.Patterns.State.IState.FixedUpdate*
+  commentId: Overload:Monologist.Patterns.State.IState.FixedUpdate
+  name: FixedUpdate
+  nameWithType: IState.FixedUpdate
+  fullName: Monologist.Patterns.State.IState.FixedUpdate
+- uid: Monologist.Patterns.State.IState.OnExit*
+  commentId: Overload:Monologist.Patterns.State.IState.OnExit
+  name: OnExit
+  nameWithType: IState.OnExit
+  fullName: Monologist.Patterns.State.IState.OnExit

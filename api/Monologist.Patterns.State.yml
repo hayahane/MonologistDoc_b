@@ -1,0 +1,53 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.Patterns.State
+  commentId: N:Monologist.Patterns.State
+  id: Monologist.Patterns.State
+  children:
+  - Monologist.Patterns.State.IState
+  - Monologist.Patterns.State.StateMachine
+  langs:
+  - csharp
+  - vb
+  name: Monologist.Patterns.State
+  nameWithType: Monologist.Patterns.State
+  fullName: Monologist.Patterns.State
+  type: Namespace
+  assemblies:
+  - Monologist.Patterns
+references:
+- uid: Monologist.Patterns.State.IState
+  commentId: T:Monologist.Patterns.State.IState
+  parent: Monologist.Patterns.State
+  name: IState
+  nameWithType: IState
+  fullName: Monologist.Patterns.State.IState
+- uid: Monologist.Patterns.State.StateMachine
+  commentId: T:Monologist.Patterns.State.StateMachine
+  parent: Monologist.Patterns.State
+  name: StateMachine
+  nameWithType: StateMachine
+  fullName: Monologist.Patterns.State.StateMachine
+- uid: Monologist.Patterns.State
+  commentId: N:Monologist.Patterns.State
+  name: Monologist.Patterns.State
+  nameWithType: Monologist.Patterns.State
+  fullName: Monologist.Patterns.State
+  spec.csharp:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
+  spec.vb:
+  - uid: Monologist
+    name: Monologist
+  - name: .
+  - uid: Monologist.Patterns
+    name: Patterns
+  - name: .
+  - uid: Monologist.Patterns.State
+    name: State
