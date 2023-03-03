@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Docs",
+  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Docs/docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -457,7 +457,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "NoMcN8+8tO2VGz5kv5i+L5m5hLhxzY2KTIUhu86QyiA="
+          "hash": "oI4sIMO9LOwFmw38czYwRm9+276cvhYLl2PPmTmvyPc="
         }
       },
       "version": ""
@@ -468,7 +468,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/KRCC_Manual.html",
-          "hash": "zUxH7sawtLiDBLJ/gfVEpMDaepvSbfmWeSoVedMwNvw="
+          "hash": "Ip4p5OJFxg4MrHD7LSS5wdBX6d0p+fJxlewEGV6zT1U="
         }
       },
       "version": ""
