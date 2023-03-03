@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Monologist.Utilities.ExtendGizmos
+  commentId: N:Monologist.Utilities.ExtendGizmos
+  id: Monologist.Utilities.ExtendGizmos
+  children:
+  - Monologist.Utilities.ExtendGizmos.ExGizmos
+  langs:
+  - csharp
+  - vb
+  name: Monologist.Utilities.ExtendGizmos
+  nameWithType: Monologist.Utilities.ExtendGizmos
+  fullName: Monologist.Utilities.ExtendGizmos
+  type: Namespace
+  assemblies:
+  - Monologist.Utilities
+references:
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos
+  commentId: T:Monologist.Utilities.ExtendGizmos.ExGizmos
+  name: ExGizmos
+  nameWithType: ExGizmos
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos

@@ -5,7 +5,8 @@
                 {
                     "src": "E:/Monologist/Formal/Project_Bartender/UnityProject/Bartender",
                     "files": [
-                        "Monologist.KRCC.csproj"
+                        "Monologist.KRCC.csproj",
+                        "Monologist.Utilities.csproj"
                     ],
                     "exclude": [
                         "Bartender/Assets/Plugins/**"

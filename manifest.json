@@ -56,12 +56,78 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.html",
+          "hash": "/31QPZeNlusSrgF693wp4OZ0hQOxVRwTc0V8lffOrQc="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendGizmos.html",
+          "hash": "FQOJ5C098KpMezxaT9RguJ2SIYPs5k2m1jFwFP2v8Bs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html",
+          "hash": "MVNCkqsRi3aQ99CBEwmggTH7HWYiWopr+g+a0kXjm5E="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendPhysics.html",
+          "hash": "M5+DXL8yGXYQl1mbV0MOIv/SDxy138NbujUSgtewZfI="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.FloatingCapsule.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.FloatingCapsule.html",
+          "hash": "Bw0ZSQkQBb2/Sd2aLTnwJVnABxiRTLdTunKFW6GXjsQ="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.html",
+          "hash": "keXS7sMES+MMSqUIvRHVOFVsH2odWii+RAp911Evlz8="
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9Yive6Ir/eRXTsLERrZbjGv3JhhFuby0HFFrXzckBXM="
+          "hash": "bpoKNWewXrHXdszlmvXkkFR9jYdtxn1Z2BrqkJY1z6s="
         }
       },
       "version": ""

@@ -320,3 +320,273 @@ references:
   commentId: T:Monologist.KRCC.MovingPlatform
   fullName: Monologist.KRCC.MovingPlatform
   nameWithType: MovingPlatform
+- uid: Monologist.Utilities
+  name: Monologist.Utilities
+  href: api/Monologist.Utilities.html
+  commentId: N:Monologist.Utilities
+  fullName: Monologist.Utilities
+  nameWithType: Monologist.Utilities
+- uid: Monologist.Utilities.ExtendGizmos
+  name: Monologist.Utilities.ExtendGizmos
+  href: api/Monologist.Utilities.ExtendGizmos.html
+  commentId: N:Monologist.Utilities.ExtendGizmos
+  fullName: Monologist.Utilities.ExtendGizmos
+  nameWithType: Monologist.Utilities.ExtendGizmos
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos
+  name: ExGizmos
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html
+  commentId: T:Monologist.Utilities.ExtendGizmos.ExGizmos
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos
+  nameWithType: ExGizmos
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: DrawSolidCircle(Vector3, Vector3, float)
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawSolidCircle_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: DrawSolidCircle(Vector3, Vector3, Single)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: ExGizmos.DrawSolidCircle(Vector3, Vector3, float)
+  nameWithType.vb: ExGizmos.DrawSolidCircle(Vector3, Vector3, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle*
+  name: DrawSolidCircle
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawSolidCircle_
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle
+  isSpec: "True"
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawSolidCircle
+  nameWithType: ExGizmos.DrawSolidCircle
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  name: DrawWireArc(Vector3, Vector3, Vector3, float, float)
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireArc_UnityEngine_Vector3_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_System_Single_
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3,UnityEngine.Vector3,UnityEngine.Vector3,System.Single,System.Single)
+  name.vb: DrawWireArc(Vector3, Vector3, Vector3, Single, Single)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, float, float)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc(UnityEngine.Vector3, UnityEngine.Vector3, UnityEngine.Vector3, Single, Single)
+  nameWithType: ExGizmos.DrawWireArc(Vector3, Vector3, Vector3, float, float)
+  nameWithType.vb: ExGizmos.DrawWireArc(Vector3, Vector3, Vector3, Single, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc*
+  name: DrawWireArc
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireArc_
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc
+  isSpec: "True"
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireArc
+  nameWithType: ExGizmos.DrawWireArc
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  name: DrawWireCapsule(Vector3, Quaternion, float, float)
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireCapsule_UnityEngine_Vector3_UnityEngine_Quaternion_System_Single_System_Single_
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3,UnityEngine.Quaternion,System.Single,System.Single)
+  name.vb: DrawWireCapsule(Vector3, Quaternion, Single, Single)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3, UnityEngine.Quaternion, float, float)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule(UnityEngine.Vector3, UnityEngine.Quaternion, Single, Single)
+  nameWithType: ExGizmos.DrawWireCapsule(Vector3, Quaternion, float, float)
+  nameWithType.vb: ExGizmos.DrawWireCapsule(Vector3, Quaternion, Single, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule*
+  name: DrawWireCapsule
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireCapsule_
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule
+  isSpec: "True"
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCapsule
+  nameWithType: ExGizmos.DrawWireCapsule
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name: DrawWireCircle(Vector3, Vector3, float)
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireCircle_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_
+  commentId: M:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3,UnityEngine.Vector3,System.Single)
+  name.vb: DrawWireCircle(Vector3, Vector3, Single)
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3, UnityEngine.Vector3, float)
+  fullName.vb: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle(UnityEngine.Vector3, UnityEngine.Vector3, Single)
+  nameWithType: ExGizmos.DrawWireCircle(Vector3, Vector3, float)
+  nameWithType.vb: ExGizmos.DrawWireCircle(Vector3, Vector3, Single)
+- uid: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle*
+  name: DrawWireCircle
+  href: api/Monologist.Utilities.ExtendGizmos.ExGizmos.html#Monologist_Utilities_ExtendGizmos_ExGizmos_DrawWireCircle_
+  commentId: Overload:Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle
+  isSpec: "True"
+  fullName: Monologist.Utilities.ExtendGizmos.ExGizmos.DrawWireCircle
+  nameWithType: ExGizmos.DrawWireCircle
+- uid: Monologist.Utilities.ExtendPhysics
+  name: Monologist.Utilities.ExtendPhysics
+  href: api/Monologist.Utilities.ExtendPhysics.html
+  commentId: N:Monologist.Utilities.ExtendPhysics
+  fullName: Monologist.Utilities.ExtendPhysics
+  nameWithType: Monologist.Utilities.ExtendPhysics
+- uid: Monologist.Utilities.ExtendPhysics.RaycastHitExtension
+  name: RaycastHitExtension
+  href: api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html
+  commentId: T:Monologist.Utilities.ExtendPhysics.RaycastHitExtension
+  fullName: Monologist.Utilities.ExtendPhysics.RaycastHitExtension
+  nameWithType: RaycastHitExtension
+- uid: Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal(UnityEngine.RaycastHit,UnityEngine.Vector3)
+  name: CorrectHitNormal(RaycastHit, Vector3)
+  href: api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html#Monologist_Utilities_ExtendPhysics_RaycastHitExtension_CorrectHitNormal_UnityEngine_RaycastHit_UnityEngine_Vector3_
+  commentId: M:Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal(UnityEngine.RaycastHit,UnityEngine.Vector3)
+  fullName: Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal(UnityEngine.RaycastHit, UnityEngine.Vector3)
+  nameWithType: RaycastHitExtension.CorrectHitNormal(RaycastHit, Vector3)
+- uid: Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal*
+  name: CorrectHitNormal
+  href: api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html#Monologist_Utilities_ExtendPhysics_RaycastHitExtension_CorrectHitNormal_
+  commentId: Overload:Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal
+  isSpec: "True"
+  fullName: Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal
+  nameWithType: RaycastHitExtension.CorrectHitNormal
+- uid: Monologist.Utilities.FloatingCapsule
+  name: FloatingCapsule
+  href: api/Monologist.Utilities.FloatingCapsule.html
+  commentId: T:Monologist.Utilities.FloatingCapsule
+  fullName: Monologist.Utilities.FloatingCapsule
+  nameWithType: FloatingCapsule
+- uid: Monologist.Utilities.FloatingCapsule.AddPassiveForce(UnityEngine.Vector3)
+  name: AddPassiveForce(Vector3)
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_AddPassiveForce_UnityEngine_Vector3_
+  commentId: M:Monologist.Utilities.FloatingCapsule.AddPassiveForce(UnityEngine.Vector3)
+  fullName: Monologist.Utilities.FloatingCapsule.AddPassiveForce(UnityEngine.Vector3)
+  nameWithType: FloatingCapsule.AddPassiveForce(Vector3)
+- uid: Monologist.Utilities.FloatingCapsule.AddPassiveForce*
+  name: AddPassiveForce
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_AddPassiveForce_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.AddPassiveForce
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.AddPassiveForce
+  nameWithType: FloatingCapsule.AddPassiveForce
+- uid: Monologist.Utilities.FloatingCapsule.AttachTo(UnityEngine.Transform)
+  name: AttachTo(Transform)
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_AttachTo_UnityEngine_Transform_
+  commentId: M:Monologist.Utilities.FloatingCapsule.AttachTo(UnityEngine.Transform)
+  fullName: Monologist.Utilities.FloatingCapsule.AttachTo(UnityEngine.Transform)
+  nameWithType: FloatingCapsule.AttachTo(Transform)
+- uid: Monologist.Utilities.FloatingCapsule.AttachTo*
+  name: AttachTo
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_AttachTo_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.AttachTo
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.AttachTo
+  nameWithType: FloatingCapsule.AttachTo
+- uid: Monologist.Utilities.FloatingCapsule.capsuleHeight
+  name: capsuleHeight
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_capsuleHeight
+  commentId: F:Monologist.Utilities.FloatingCapsule.capsuleHeight
+  fullName: Monologist.Utilities.FloatingCapsule.capsuleHeight
+  nameWithType: FloatingCapsule.capsuleHeight
+- uid: Monologist.Utilities.FloatingCapsule.capsuleRadius
+  name: capsuleRadius
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_capsuleRadius
+  commentId: F:Monologist.Utilities.FloatingCapsule.capsuleRadius
+  fullName: Monologist.Utilities.FloatingCapsule.capsuleRadius
+  nameWithType: FloatingCapsule.capsuleRadius
+- uid: Monologist.Utilities.FloatingCapsule.detectOffset
+  name: detectOffset
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_detectOffset
+  commentId: F:Monologist.Utilities.FloatingCapsule.detectOffset
+  fullName: Monologist.Utilities.FloatingCapsule.detectOffset
+  nameWithType: FloatingCapsule.detectOffset
+- uid: Monologist.Utilities.FloatingCapsule.detectRadius
+  name: detectRadius
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_detectRadius
+  commentId: F:Monologist.Utilities.FloatingCapsule.detectRadius
+  fullName: Monologist.Utilities.FloatingCapsule.detectRadius
+  nameWithType: FloatingCapsule.detectRadius
+- uid: Monologist.Utilities.FloatingCapsule.floatRange
+  name: floatRange
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_floatRange
+  commentId: F:Monologist.Utilities.FloatingCapsule.floatRange
+  fullName: Monologist.Utilities.FloatingCapsule.floatRange
+  nameWithType: FloatingCapsule.floatRange
+- uid: Monologist.Utilities.FloatingCapsule.floatToPositionTime
+  name: floatToPositionTime
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_floatToPositionTime
+  commentId: F:Monologist.Utilities.FloatingCapsule.floatToPositionTime
+  fullName: Monologist.Utilities.FloatingCapsule.floatToPositionTime
+  nameWithType: FloatingCapsule.floatToPositionTime
+- uid: Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection
+  name: GetPassiveForceOnAcitiveDirection()
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetPassiveForceOnAcitiveDirection
+  commentId: M:Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection
+  fullName: Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection()
+  nameWithType: FloatingCapsule.GetPassiveForceOnAcitiveDirection()
+- uid: Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection*
+  name: GetPassiveForceOnAcitiveDirection
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetPassiveForceOnAcitiveDirection_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.GetPassiveForceOnAcitiveDirection
+  nameWithType: FloatingCapsule.GetPassiveForceOnAcitiveDirection
+- uid: Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection
+  name: GetVelocityOnActiveDirection()
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetVelocityOnActiveDirection
+  commentId: M:Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection
+  fullName: Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection()
+  nameWithType: FloatingCapsule.GetVelocityOnActiveDirection()
+- uid: Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection*
+  name: GetVelocityOnActiveDirection
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetVelocityOnActiveDirection_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.GetVelocityOnActiveDirection
+  nameWithType: FloatingCapsule.GetVelocityOnActiveDirection
+- uid: Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion(UnityEngine.Vector3)
+  name: GetVelocityOnAdjustedDircetion(Vector3)
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetVelocityOnAdjustedDircetion_UnityEngine_Vector3_
+  commentId: M:Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion(UnityEngine.Vector3)
+  fullName: Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion(UnityEngine.Vector3)
+  nameWithType: FloatingCapsule.GetVelocityOnAdjustedDircetion(Vector3)
+- uid: Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion*
+  name: GetVelocityOnAdjustedDircetion
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_GetVelocityOnAdjustedDircetion_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.GetVelocityOnAdjustedDircetion
+  nameWithType: FloatingCapsule.GetVelocityOnAdjustedDircetion
+- uid: Monologist.Utilities.FloatingCapsule.groundLayer
+  name: groundLayer
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_groundLayer
+  commentId: F:Monologist.Utilities.FloatingCapsule.groundLayer
+  fullName: Monologist.Utilities.FloatingCapsule.groundLayer
+  nameWithType: FloatingCapsule.groundLayer
+- uid: Monologist.Utilities.FloatingCapsule.isGrounded
+  name: isGrounded
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_isGrounded
+  commentId: F:Monologist.Utilities.FloatingCapsule.isGrounded
+  fullName: Monologist.Utilities.FloatingCapsule.isGrounded
+  nameWithType: FloatingCapsule.isGrounded
+- uid: Monologist.Utilities.FloatingCapsule.maxSlopeAngle
+  name: maxSlopeAngle
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_maxSlopeAngle
+  commentId: F:Monologist.Utilities.FloatingCapsule.maxSlopeAngle
+  fullName: Monologist.Utilities.FloatingCapsule.maxSlopeAngle
+  nameWithType: FloatingCapsule.maxSlopeAngle
+- uid: Monologist.Utilities.FloatingCapsule.maxSpeed
+  name: maxSpeed
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_maxSpeed
+  commentId: F:Monologist.Utilities.FloatingCapsule.maxSpeed
+  fullName: Monologist.Utilities.FloatingCapsule.maxSpeed
+  nameWithType: FloatingCapsule.maxSpeed
+- uid: Monologist.Utilities.FloatingCapsule.SetActiveForce(UnityEngine.Vector3)
+  name: SetActiveForce(Vector3)
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_SetActiveForce_UnityEngine_Vector3_
+  commentId: M:Monologist.Utilities.FloatingCapsule.SetActiveForce(UnityEngine.Vector3)
+  fullName: Monologist.Utilities.FloatingCapsule.SetActiveForce(UnityEngine.Vector3)
+  nameWithType: FloatingCapsule.SetActiveForce(Vector3)
+- uid: Monologist.Utilities.FloatingCapsule.SetActiveForce*
+  name: SetActiveForce
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_SetActiveForce_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.SetActiveForce
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.SetActiveForce
+  nameWithType: FloatingCapsule.SetActiveForce
+- uid: Monologist.Utilities.FloatingCapsule.SetVelocity(UnityEngine.Vector3)
+  name: SetVelocity(Vector3)
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_SetVelocity_UnityEngine_Vector3_
+  commentId: M:Monologist.Utilities.FloatingCapsule.SetVelocity(UnityEngine.Vector3)
+  fullName: Monologist.Utilities.FloatingCapsule.SetVelocity(UnityEngine.Vector3)
+  nameWithType: FloatingCapsule.SetVelocity(Vector3)
+- uid: Monologist.Utilities.FloatingCapsule.SetVelocity*
+  name: SetVelocity
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_SetVelocity_
+  commentId: Overload:Monologist.Utilities.FloatingCapsule.SetVelocity
+  isSpec: "True"
+  fullName: Monologist.Utilities.FloatingCapsule.SetVelocity
+  nameWithType: FloatingCapsule.SetVelocity
+- uid: Monologist.Utilities.FloatingCapsule.useDefaultGravity
+  name: useDefaultGravity
+  href: api/Monologist.Utilities.FloatingCapsule.html#Monologist_Utilities_FloatingCapsule_useDefaultGravity
+  commentId: F:Monologist.Utilities.FloatingCapsule.useDefaultGravity
+  fullName: Monologist.Utilities.FloatingCapsule.useDefaultGravity
+  nameWithType: FloatingCapsule.useDefaultGravity
