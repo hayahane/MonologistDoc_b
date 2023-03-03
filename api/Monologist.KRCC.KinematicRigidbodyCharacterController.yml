@@ -13,7 +13,7 @@ items:
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation
-  - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
+  - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity
   - Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
@@ -850,7 +850,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterOverlap
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 712
+    startLine: 713
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -900,7 +900,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRaycast
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 749
+    startLine: 750
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -938,16 +938,16 @@ items:
   nameWithType.vb: KinematicRigidbodyCharacterController.CharacterRaycast(Vector3, Vector3, Single, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
   fullName.vb: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3, UnityEngine.Vector3, Single, UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit(), Monologist.KRCC.CheckColliderValid)
   name.vb: CharacterRaycast(Vector3, Vector3, Single, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
-  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
-  id: CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
+  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
+  id: CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
   parent: Monologist.KRCC.KinematicRigidbodyCharacterController
   langs:
   - csharp
   - vb
-  name: CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)
-  nameWithType: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, float, out bool, out UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit[], Monologist.KRCC.CheckColliderValid)
+  name: CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid, float)
+  nameWithType: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid, float)
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, float, out bool, out UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit[], Monologist.KRCC.CheckColliderValid, float)
   type: Method
   source:
     remote:
@@ -956,14 +956,14 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterSweepTest
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 790
+    startLine: 791
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
   summary: "\nCapsule sweep test on certain direction.\n"
   example: []
   syntax:
-    content: public int CharacterSweepTest(Vector3 position, Quaternion rotation, Vector3 direction, float distance, out bool isStartPenetrated, out RaycastHit closetHitInfo, LayerMask queryLayer, RaycastHit[] sweepHits, CheckColliderValid checkColliderValid)
+    content: public int CharacterSweepTest(Vector3 position, Quaternion rotation, Vector3 direction, float distance, out bool isStartPenetrated, out RaycastHit closetHitInfo, LayerMask queryLayer, RaycastHit[] sweepHits, CheckColliderValid checkColliderValid, float sweepOffset = 0)
     parameters:
     - id: position
       type: UnityEngine.Vector3
@@ -995,14 +995,16 @@ items:
     - id: checkColliderValid
       type: Monologist.KRCC.CheckColliderValid
       description: Delegate to define if a collider is valid.
+    - id: sweepOffset
+      type: System.Single
     return:
       type: System.Int32
       description: Count of hits.
-    content.vb: Public Function CharacterSweepTest(position As Vector3, rotation As Quaternion, direction As Vector3, distance As Single, isStartPenetrated As Boolean, closetHitInfo As RaycastHit, queryLayer As LayerMask, sweepHits As RaycastHit(), checkColliderValid As CheckColliderValid) As Integer
+    content.vb: Public Function CharacterSweepTest(position As Vector3, rotation As Quaternion, direction As Vector3, distance As Single, isStartPenetrated As Boolean, closetHitInfo As RaycastHit, queryLayer As LayerMask, sweepHits As RaycastHit(), checkColliderValid As CheckColliderValid, sweepOffset As Single = 0) As Integer
   overload: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest*
-  nameWithType.vb: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
-  fullName.vb: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, Single, Boolean, UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit(), Monologist.KRCC.CheckColliderValid)
-  name.vb: CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
+  nameWithType.vb: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid, Single)
+  fullName.vb: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, Single, Boolean, UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit(), Monologist.KRCC.CheckColliderValid, Single)
+  name.vb: CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid, Single)
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)
   commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)
   id: AttachToMovingPlatform(UnityEngine.Transform)
@@ -1021,7 +1023,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachToMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 847
+    startLine: 848
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1053,7 +1055,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: DetachFromMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 858
+    startLine: 859
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1081,7 +1083,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveByVelocity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 868
+    startLine: 869
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1113,7 +1115,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 877
+    startLine: 878
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1145,7 +1147,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetPosition
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 888
+    startLine: 889
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1177,7 +1179,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 898
+    startLine: 899
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC

@@ -122,15 +122,15 @@ references:
   isSpec: "True"
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation
   nameWithType: KinematicRigidbodyCharacterController.CharacterRotation
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
-  name: CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)
-  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_
-  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)
-  name.vb: CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, float, out bool, out UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit[], Monologist.KRCC.CheckColliderValid)
-  fullName.vb: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, Single, Boolean, UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit(), Monologist.KRCC.CheckColliderValid)
-  nameWithType: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)
-  nameWithType.vb: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid)
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
+  name: CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid, float)
+  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_System_Single_
+  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
+  name.vb: CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid, Single)
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, float, out bool, out UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit[], Monologist.KRCC.CheckColliderValid, float)
+  fullName.vb: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3, UnityEngine.Quaternion, UnityEngine.Vector3, Single, Boolean, UnityEngine.RaycastHit, UnityEngine.LayerMask, UnityEngine.RaycastHit(), Monologist.KRCC.CheckColliderValid, Single)
+  nameWithType: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid, float)
+  nameWithType.vb: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid, Single)
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest*
   name: CharacterSweepTest
   href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_

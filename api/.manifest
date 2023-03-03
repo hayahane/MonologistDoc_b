@@ -10,7 +10,7 @@
   "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
   "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
   "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
-  "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
+  "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
   "Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
   "Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
   "Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform": "Monologist.KRCC.KinematicRigidbodyCharacterController.yml",
