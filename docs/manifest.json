@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Docs/docs",
+  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monologist.KRCC.KinematicRigidbodyCharacterController.html",
-          "hash": "zJtXD5cE5YPRSy7jgpDDzktylcPEM9kXh6QqfJLxni0="
+          "hash": "Ds2Qc1kJVwVHaUYWzmdTSIgQ98zc9lpjc12qNTIEEzM="
         }
       },
       "version": ""
@@ -56,12 +56,56 @@
       "version": ""
     },
     {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.html",
+          "hash": "teP49N3t6qF2p5l2do7pvMm+RmUusVdjDSrTw/ygar0="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendGizmos.html",
+          "hash": "FQOJ5C098KpMezxaT9RguJ2SIYPs5k2m1jFwFP2v8Bs="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html",
+          "hash": "maEzmgL1oBuRX9UzE+N/RG7RMUxsiI6FzO3bST/p8EY="
+        }
+      },
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Monologist.Utilities.ExtendPhysics.html",
+          "hash": "M5+DXL8yGXYQl1mbV0MOIv/SDxy138NbujUSgtewZfI="
+        }
+      },
+      "version": ""
+    },
+    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9Yive6Ir/eRXTsLERrZbjGv3JhhFuby0HFFrXzckBXM="
+          "hash": "WNbos9kus5knpaPvZWTQVik8d6cRRPGsFaqEkWeUzpA="
         }
       },
       "version": ""
@@ -72,7 +116,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "oI4sIMO9LOwFmw38czYwRm9+276cvhYLl2PPmTmvyPc="
+          "hash": "NoMcN8+8tO2VGz5kv5i+L5m5hLhxzY2KTIUhu86QyiA="
         }
       },
       "version": ""
@@ -83,7 +127,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/KRCC_Manual.html",
-          "hash": "Ip4p5OJFxg4MrHD7LSS5wdBX6d0p+fJxlewEGV6zT1U="
+          "hash": "zUxH7sawtLiDBLJ/gfVEpMDaepvSbfmWeSoVedMwNvw="
         }
       },
       "version": ""

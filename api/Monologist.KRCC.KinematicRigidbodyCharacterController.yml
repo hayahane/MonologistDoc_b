@@ -850,7 +850,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterOverlap
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 718
+    startLine: 712
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -900,7 +900,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRaycast
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 755
+    startLine: 749
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -956,7 +956,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterSweepTest
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 796
+    startLine: 790
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1021,7 +1021,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachToMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 851
+    startLine: 847
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1053,7 +1053,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: DetachFromMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 862
+    startLine: 858
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1081,7 +1081,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveByVelocity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 872
+    startLine: 868
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1113,7 +1113,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 881
+    startLine: 877
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1145,7 +1145,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetPosition
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 892
+    startLine: 888
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1177,7 +1177,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 902
+    startLine: 898
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
