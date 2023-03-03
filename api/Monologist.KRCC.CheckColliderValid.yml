@@ -18,7 +18,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CheckColliderValid
-    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 9
   assemblies:
   - Monologist.KRCC

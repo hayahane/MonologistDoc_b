@@ -47,7 +47,7 @@
                 "dest": "manual"
             }
         ],
-        "dest": "_site",
+        "dest": "../docs",
         "resource": [
             {
                 "files": [

@@ -1,6 +1,6 @@
 {
   "homepages": [],
-  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Bartender/Doc",
+  "source_base_path": "E:/Monologist/Formal/Project_Bartender/UnityProject/Docs",
   "xrefmap": "xrefmap.yml",
   "files": [
     {
@@ -10,28 +10,6 @@
           "relative_path": "index.json"
         }
       }
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.InputHandler.InputHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.InputHandler.InputHandler.html",
-          "hash": "W3EcHMn3DeAHQgPDmS9y4GZqgjoElutpl+SNMD3pGq4="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.InputHandler.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.InputHandler.html",
-          "hash": "bIgNExXmQTmQUs+fFd5uTx4e2r5iZG5q55sGUk7xL5k="
-        }
-      },
-      "version": ""
     },
     {
       "type": "ManagedReference",
@@ -78,375 +56,12 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.Singleton.Singleton-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.Singleton.Singleton-1.html",
-          "hash": "xCpFPsSVPlIPMGNgIunJg5P5HxnJD0EwA+r2Kj9Juyg="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.Singleton.SingletonPersisdent-1.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.Singleton.SingletonPersisdent-1.html",
-          "hash": "RUJiXHEWa4QZoIJFBD79NvH1tLqRG+Z4e26P17csZb0="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.Singleton.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.Singleton.html",
-          "hash": "MMyOefLYoGD4Saps0vA4qNj514G+IiudblkD8hwEMhM="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.State.IState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.State.IState.html",
-          "hash": "U/k9txyknT8b9cKxv/3wLpgh8wfDknlxyPkd1ToAyas="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.State.StateMachine.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.State.StateMachine.html",
-          "hash": "gmSQ6h7wqdKC+581u3eKoLRIGaLb6UBygwjDQdmlTsI="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Patterns.State.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Patterns.State.html",
-          "hash": "S7v1sf8Z3YjcGIjJjDdObZqUkmNADl0j6hOfE0lEQLM="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.ClimbData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.ClimbData.html",
-          "hash": "NmiFkfSpOFoVsi5KhH1expUsfAeZ/6YEwCIWAyL9GmE="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.DashData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.DashData.html",
-          "hash": "D+Mz/fV/PJHe6Lh7vLkVHophrjNa5sirfVC/iQvJu8Y="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.FloatData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.FloatData.html",
-          "hash": "kuz/WDXXUDm6Vft8C+iojZKpbbLMqwu+NNdYU3sc5Ts="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.AirState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.AirState.html",
-          "hash": "irqYq8DFN0jnCs+eKavSWCgnS3JoWi293L73fu5GllQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.ClimbState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.ClimbState.html",
-          "hash": "yecMxMxxFa8uIBYZ/QPcnelqxsxwxYA/rvkPOh+Y/Eo="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.DashState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.DashState.html",
-          "hash": "F4iOnKyJTxIFi4Hm/R1wbF0OlRo86wot1Ag/HP9VvII="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.FallState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.FallState.html",
-          "hash": "xU3C3zZC2xzql8ed7itiSrkcZTUd/eqSM3xe3GQYZxc="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.GroundedState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.GroundedState.html",
-          "hash": "GOvMMzT9xvP38a41BRCIFKkOw59/hHcrf/hX2XZEocs="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.HoverState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.HoverState.html",
-          "hash": "jwvSSGZfMtwy7IZngNdakc5ya+MakP1GYZKpO2qq9R4="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.IdleState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.IdleState.html",
-          "hash": "gIMn3so5jGjOgCDd0PSkf0+ZkgDyK4AqoOlZx70DRuw="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.MoveStateMachine.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.MoveStateMachine.html",
-          "hash": "sIhQICx/w6Psawj1QVT7JvObcDzhzFb/GcHugr0bRyk="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.StopState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.StopState.html",
-          "hash": "7ctqL/rybxMwNl98b/uZuvjcR7u9+yRcnmnMYNNVFUE="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.WalkState.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.WalkState.html",
-          "hash": "zpeTMzI/G5pV6H5ABpQt6yvsKQn9OBFaPEuh0iqKwPo="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.Movement.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.Movement.html",
-          "hash": "csv3p5RndpObeFtarvpbrJw2hSsBcPj+5XHWmodAg9w="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.PlayerController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.PlayerController.html",
-          "hash": "HqL6Ivm6aRgsmA3MMW97HxFLgUyU0db7sk7X5JPU6I4="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.PlayerControllerData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.PlayerControllerData.html",
-          "hash": "5h3fgqInfNkrlNxbTCZTfz1fVIgq9QqMpolmzap8VdU="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.WalkData.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.WalkData.html",
-          "hash": "kDlfk8mjtOumVUpWlV1EOYzdlJEztLZ/movqtW0Mppg="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.PlayerCharacter.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.PlayerCharacter.html",
-          "hash": "WVJK2jq//Z7bx2f0+o61CIc6LfgxV/iXR/djXBtUN4o="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.html",
-          "hash": "/31QPZeNlusSrgF693wp4OZ0hQOxVRwTc0V8lffOrQc="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.ExtendGizmos.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.ExtendGizmos.html",
-          "hash": "FQOJ5C098KpMezxaT9RguJ2SIYPs5k2m1jFwFP2v8Bs="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html",
-          "hash": "MVNCkqsRi3aQ99CBEwmggTH7HWYiWopr+g+a0kXjm5E="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.ExtendPhysics.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.ExtendPhysics.html",
-          "hash": "M5+DXL8yGXYQl1mbV0MOIv/SDxy138NbujUSgtewZfI="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.FloatingCapsule.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.FloatingCapsule.html",
-          "hash": "Bw0ZSQkQBb2/Sd2aLTnwJVnABxiRTLdTunKFW6GXjsQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.ReadOnlyAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.ReadOnlyAttribute.html",
-          "hash": "bUE1N/DPqrmkyfXPVlKgQWBh1OWinD1jHryPd0UA8H0="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.RelianceReportor.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.RelianceReportor.html",
-          "hash": "Z1ubpNyUiAGOBPhFuPdlcsf9P84hC1h5Dq20Wmg3fNQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.RigidbodyController.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.RigidbodyController.html",
-          "hash": "r0Y5GAVNXZ4WUMWeD+9EYE0365G2EnAxT1OSerz76Bg="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.html",
-          "hash": "9qzfDTOZ5k1S6tbp74mVDcLx9qVnzwClFbhelUGPrOA="
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "lBJTIFHRh/lN7YFLIptWgsQJkbKVXud4sjLl6y6+o3o="
+          "hash": "9Yive6Ir/eRXTsLERrZbjGv3JhhFuby0HFFrXzckBXM="
         }
       },
       "version": ""
@@ -457,7 +72,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "Th3/b7fsaSUfCW2AxZ6gPW5dIOmJYdr8RNkcyxwWJd8="
+          "hash": "NoMcN8+8tO2VGz5kv5i+L5m5hLhxzY2KTIUhu86QyiA="
         }
       },
       "version": ""
@@ -468,7 +83,7 @@
       "output": {
         ".html": {
           "relative_path": "manual/KRCC_Manual.html",
-          "hash": "ajhGUR5yonm4958YvUivw254c8ihA8CDf2c+/GVMD8o="
+          "hash": "zUxH7sawtLiDBLJ/gfVEpMDaepvSbfmWeSoVedMwNvw="
         }
       },
       "version": ""
@@ -530,7 +145,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "tl5yC2WlmGLlVHLipWdWMMKHr3t/miQJqvqLDDFVVwg="
+          "hash": "2z1mP7a1Bh0ZogDkn+CgEWA8zmZOs5Ej2Lz/WLq8TUE="
         }
       },
       "version": ""
