@@ -8,13 +8,3 @@
     name: KinematicRigidbodyCharacterController
   - uid: Monologist.KRCC.MovingPlatform
     name: MovingPlatform
-- uid: Monologist.Utilities.ExtendGizmos
-  name: Monologist.Utilities.ExtendGizmos
-  items:
-  - uid: Monologist.Utilities.ExtendGizmos.ExGizmos
-    name: ExGizmos
-- uid: Monologist.Utilities.ExtendPhysics
-  name: Monologist.Utilities.ExtendPhysics
-  items:
-  - uid: Monologist.Utilities.ExtendPhysics.RaycastHitExtension
-    name: RaycastHitExtension
