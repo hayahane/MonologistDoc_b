@@ -28,7 +28,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monologist.KRCC.KinematicRigidbodyCharacterController.html",
-          "hash": "zJtXD5cE5YPRSy7jgpDDzktylcPEM9kXh6QqfJLxni0="
+          "hash": "Lj70AM9KT3xIqBNb3tVZSuAT0R9iGM9BdoMz8JcI2U8="
         }
       },
       "version": ""
@@ -61,7 +61,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monologist.Utilities.ExtendGizmos.ExGizmos.html",
-          "hash": "/31QPZeNlusSrgF693wp4OZ0hQOxVRwTc0V8lffOrQc="
+          "hash": "teP49N3t6qF2p5l2do7pvMm+RmUusVdjDSrTw/ygar0="
         }
       },
       "version": ""
@@ -83,7 +83,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Monologist.Utilities.ExtendPhysics.RaycastHitExtension.html",
-          "hash": "MVNCkqsRi3aQ99CBEwmggTH7HWYiWopr+g+a0kXjm5E="
+          "hash": "maEzmgL1oBuRX9UzE+N/RG7RMUxsiI6FzO3bST/p8EY="
         }
       },
       "version": ""
@@ -100,34 +100,12 @@
       "version": ""
     },
     {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.FloatingCapsule.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.FloatingCapsule.html",
-          "hash": "Bw0ZSQkQBb2/Sd2aLTnwJVnABxiRTLdTunKFW6GXjsQ="
-        }
-      },
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/Monologist.Utilities.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/Monologist.Utilities.html",
-          "hash": "keXS7sMES+MMSqUIvRHVOFVsH2odWii+RAp911Evlz8="
-        }
-      },
-      "version": ""
-    },
-    {
       "type": "Toc",
       "source_relative_path": "api/toc.yml",
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "bpoKNWewXrHXdszlmvXkkFR9jYdtxn1Z2BrqkJY1z6s="
+          "hash": "WNbos9kus5knpaPvZWTQVik8d6cRRPGsFaqEkWeUzpA="
         }
       },
       "version": ""

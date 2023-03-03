@@ -8,11 +8,6 @@
     name: KinematicRigidbodyCharacterController
   - uid: Monologist.KRCC.MovingPlatform
     name: MovingPlatform
-- uid: Monologist.Utilities
-  name: Monologist.Utilities
-  items:
-  - uid: Monologist.Utilities.FloatingCapsule
-    name: FloatingCapsule
 - uid: Monologist.Utilities.ExtendGizmos
   name: Monologist.Utilities.ExtendGizmos
   items:
