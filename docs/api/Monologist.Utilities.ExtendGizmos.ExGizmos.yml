@@ -22,7 +22,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: ExGizmos
-    path: ../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    path: ../../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
     startLine: 5
   assemblies:
   - Monologist.Utilities
@@ -57,7 +57,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DrawWireCircle
-    path: ../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    path: ../../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
     startLine: 13
   assemblies:
   - Monologist.Utilities
@@ -98,7 +98,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DrawSolidCircle
-    path: ../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    path: ../../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
     startLine: 25
   assemblies:
   - Monologist.Utilities
@@ -139,7 +139,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DrawWireArc
-    path: ../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    path: ../../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
     startLine: 39
   assemblies:
   - Monologist.Utilities
@@ -186,7 +186,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DrawWireCapsule
-    path: ../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
+    path: ../../Bartender/Assets/Scripts/Utilities/ExtendGizmos/ExtendedGizmos.cs
     startLine: 52
   assemblies:
   - Monologist.Utilities

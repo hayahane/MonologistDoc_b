@@ -18,7 +18,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: MovingPlatform
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/MovingPlatform.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/MovingPlatform.cs
     startLine: 4
   assemblies:
   - Monologist.KRCC

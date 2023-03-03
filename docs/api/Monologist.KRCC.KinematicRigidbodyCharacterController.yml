@@ -47,7 +47,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: KinematicRigidbodyCharacterController
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 11
   assemblies:
   - Monologist.KRCC
@@ -223,7 +223,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxIterations
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 25
   assemblies:
   - Monologist.KRCC
@@ -250,7 +250,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterUp
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 40
   assemblies:
   - Monologist.KRCC
@@ -281,7 +281,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterPosition
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 45
   assemblies:
   - Monologist.KRCC
@@ -312,7 +312,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRotation
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 50
   assemblies:
   - Monologist.KRCC
@@ -343,7 +343,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CapsuleRadius
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 58
   assemblies:
   - Monologist.KRCC
@@ -374,7 +374,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CapsuleHeight
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 62
   assemblies:
   - Monologist.KRCC
@@ -405,7 +405,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveSlope
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 71
   assemblies:
   - Monologist.KRCC
@@ -434,7 +434,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveStepping
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 75
   assemblies:
   - Monologist.KRCC
@@ -463,7 +463,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveSlide
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 79
   assemblies:
   - Monologist.KRCC
@@ -492,7 +492,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: snapGround
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 83
   assemblies:
   - Monologist.KRCC
@@ -521,7 +521,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: pushRigidbody
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 87
   assemblies:
   - Monologist.KRCC
@@ -550,7 +550,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: affectCharacterVelocity
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 91
   assemblies:
   - Monologist.KRCC
@@ -579,7 +579,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: energyLossFactor
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 108
   assemblies:
   - Monologist.KRCC
@@ -622,7 +622,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: gravity
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 112
   assemblies:
   - Monologist.KRCC
@@ -651,7 +651,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSlopeAngle
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 116
   assemblies:
   - Monologist.KRCC
@@ -694,7 +694,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxStepHeight
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 120
   assemblies:
   - Monologist.KRCC
@@ -735,7 +735,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CurrentVelocity
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 128
   assemblies:
   - Monologist.KRCC
@@ -766,7 +766,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: interactLayer
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 139
   assemblies:
   - Monologist.KRCC
@@ -793,7 +793,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: groundLayer
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 140
   assemblies:
   - Monologist.KRCC
@@ -820,7 +820,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: IsGrounded
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 142
   assemblies:
   - Monologist.KRCC
@@ -849,7 +849,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterOverlap
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 707
   assemblies:
   - Monologist.KRCC
@@ -899,7 +899,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRaycast
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 744
   assemblies:
   - Monologist.KRCC
@@ -955,7 +955,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterSweepTest
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 785
   assemblies:
   - Monologist.KRCC
@@ -1020,7 +1020,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachToMovingPlatform
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 840
   assemblies:
   - Monologist.KRCC
@@ -1052,7 +1052,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: DetachFromMovingPlatform
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 851
   assemblies:
   - Monologist.KRCC
@@ -1080,7 +1080,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveByVelocity
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 861
   assemblies:
   - Monologist.KRCC
@@ -1112,7 +1112,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveRotation
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 870
   assemblies:
   - Monologist.KRCC
@@ -1144,7 +1144,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetPosition
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 881
   assemblies:
   - Monologist.KRCC
@@ -1176,7 +1176,7 @@ items:
       branch: feature/basic_movement
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetRotation
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    path: ../../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
     startLine: 891
   assemblies:
   - Monologist.KRCC

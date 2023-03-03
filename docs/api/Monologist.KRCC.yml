@@ -30,7 +30,6 @@ references:
   fullName: Monologist.KRCC.CheckColliderValid
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController
   commentId: T:Monologist.KRCC.KinematicRigidbodyCharacterController
-  parent: Monologist.KRCC
   name: KinematicRigidbodyCharacterController
   nameWithType: KinematicRigidbodyCharacterController
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController
