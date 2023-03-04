@@ -164,12 +164,12 @@ references:
   isSpec: "True"
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity
   nameWithType: KinematicRigidbodyCharacterController.CurrentVelocity
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
-  name: DetachFromMovingPlatform()
-  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform
-  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform()
-  nameWithType: KinematicRigidbodyCharacterController.DetachFromMovingPlatform()
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
+  name: DetachFromMovingPlatform(Transform)
+  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_UnityEngine_Transform_
+  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
+  nameWithType: KinematicRigidbodyCharacterController.DetachFromMovingPlatform(Transform)
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform*
   name: DetachFromMovingPlatform
   href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_
@@ -189,18 +189,18 @@ references:
   commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.gravity
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.gravity
   nameWithType: KinematicRigidbodyCharacterController.gravity
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  name: groundingSpeedRemain
+  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_groundingSpeedRemain
+  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  nameWithType: KinematicRigidbodyCharacterController.groundingSpeedRemain
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
   name: groundLayer
   href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_groundLayer
   commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
   nameWithType: KinematicRigidbodyCharacterController.groundLayer
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  name: interactLayer
-  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_interactLayer
-  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  nameWithType: KinematicRigidbodyCharacterController.interactLayer
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded
   name: IsGrounded
   href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded
@@ -214,12 +214,6 @@ references:
   isSpec: "True"
   fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded
   nameWithType: KinematicRigidbodyCharacterController.IsGrounded
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  name: maxIterations
-  href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_maxIterations
-  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  nameWithType: KinematicRigidbodyCharacterController.maxIterations
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle
   name: maxSlopeAngle
   href: api/Monologist.KRCC.KinematicRigidbodyCharacterController.html#Monologist_KRCC_KinematicRigidbodyCharacterController_maxSlopeAngle

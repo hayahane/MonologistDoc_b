@@ -16,13 +16,12 @@ items:
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp
   - Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity
-  - Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
+  - Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
   - Monologist.KRCC.KinematicRigidbodyCharacterController.energyLossFactor
   - Monologist.KRCC.KinematicRigidbodyCharacterController.gravity
+  - Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
   - Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
-  - Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
   - Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded
-  - Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
   - Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle
   - Monologist.KRCC.KinematicRigidbodyCharacterController.maxStepHeight
   - Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)
@@ -206,33 +205,6 @@ items:
     arguments:
     - type: System.Type
       value: UnityEngine.CapsuleCollider
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  id: maxIterations
-  parent: Monologist.KRCC.KinematicRigidbodyCharacterController
-  langs:
-  - csharp
-  - vb
-  name: maxIterations
-  nameWithType: KinematicRigidbodyCharacterController.maxIterations
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations
-  type: Field
-  source:
-    remote:
-      path: Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-      branch: feature/basic_movement
-      repo: git@github.com:MonologistGames/Bartender.git
-    id: maxIterations
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 25
-  assemblies:
-  - Monologist.KRCC
-  namespace: Monologist.KRCC
-  syntax:
-    content: public int maxIterations
-    return:
-      type: System.Int32
-    content.vb: Public maxIterations As Integer
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp
   commentId: P:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp
   id: CharacterUp
@@ -251,7 +223,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterUp
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 40
+    startLine: 37
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -282,7 +254,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterPosition
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 45
+    startLine: 42
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -313,7 +285,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 50
+    startLine: 47
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -344,7 +316,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CapsuleRadius
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 58
+    startLine: 55
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -375,7 +347,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CapsuleHeight
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 63
+    startLine: 60
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -406,7 +378,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveSlope
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 72
+    startLine: 69
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -435,7 +407,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveStepping
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 77
+    startLine: 74
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -464,7 +436,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: solveSlide
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 82
+    startLine: 79
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -493,7 +465,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: snapGround
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 87
+    startLine: 84
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -522,7 +494,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: pushRigidbody
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 92
+    startLine: 89
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -551,7 +523,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: affectCharacterVelocity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 97
+    startLine: 94
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -580,7 +552,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: energyLossFactor
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 114
+    startLine: 113
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -597,6 +569,49 @@ items:
       <Range(0, 1)>
 
       Public energyLossFactor As Single
+  attributes:
+  - type: UnityEngine.RangeAttribute
+    ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
+    arguments:
+    - type: System.Single
+      value: 0
+    - type: System.Single
+      value: 1
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  id: groundingSpeedRemain
+  parent: Monologist.KRCC.KinematicRigidbodyCharacterController
+  langs:
+  - csharp
+  - vb
+  name: groundingSpeedRemain
+  nameWithType: KinematicRigidbodyCharacterController.groundingSpeedRemain
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain
+  type: Field
+  source:
+    remote:
+      path: Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+      branch: feature/basic_movement
+      repo: git@github.com:MonologistGames/Bartender.git
+    id: groundingSpeedRemain
+    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
+    startLine: 118
+  assemblies:
+  - Monologist.KRCC
+  namespace: Monologist.KRCC
+  summary: "\nHow much speed will the character remain when ground on a slope.\n"
+  example: []
+  syntax:
+    content: >-
+      [Range(0, 1)]
+
+      public float groundingSpeedRemain
+    return:
+      type: System.Single
+    content.vb: >-
+      <Range(0, 1)>
+
+      Public groundingSpeedRemain As Single
   attributes:
   - type: UnityEngine.RangeAttribute
     ctor: UnityEngine.RangeAttribute.#ctor(System.Single,System.Single)
@@ -623,7 +638,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: gravity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 119
+    startLine: 123
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -652,7 +667,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxSlopeAngle
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 124
+    startLine: 128
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -695,7 +710,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: maxStepHeight
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 129
+    startLine: 133
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -736,7 +751,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CurrentVelocity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 137
+    startLine: 143
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -749,33 +764,6 @@ items:
       type: UnityEngine.Vector3
     content.vb: Public ReadOnly Property CurrentVelocity As Vector3
   overload: Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity*
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  id: interactLayer
-  parent: Monologist.KRCC.KinematicRigidbodyCharacterController
-  langs:
-  - csharp
-  - vb
-  name: interactLayer
-  nameWithType: KinematicRigidbodyCharacterController.interactLayer
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer
-  type: Field
-  source:
-    remote:
-      path: Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-      branch: feature/basic_movement
-      repo: git@github.com:MonologistGames/Bartender.git
-    id: interactLayer
-    path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 148
-  assemblies:
-  - Monologist.KRCC
-  namespace: Monologist.KRCC
-  syntax:
-    content: public LayerMask interactLayer
-    return:
-      type: UnityEngine.LayerMask
-    content.vb: Public interactLayer As LayerMask
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
   commentId: F:Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer
   id: groundLayer
@@ -794,7 +782,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: groundLayer
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 149
+    startLine: 165
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -821,7 +809,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: IsGrounded
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 151
+    startLine: 167
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -850,7 +838,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterOverlap
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 713
+    startLine: 750
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -864,7 +852,7 @@ items:
       description: Overlap capsule position.
     - id: rotation
       type: UnityEngine.Quaternion
-      description: Overlap capsule position.
+      description: Overlap capsule rotation.
     - id: queryLayer
       type: UnityEngine.LayerMask
       description: LayerMask to query collision.
@@ -900,7 +888,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterRaycast
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 750
+    startLine: 787
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -956,7 +944,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: CharacterSweepTest
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 791
+    startLine: 831
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -997,9 +985,15 @@ items:
       description: Delegate to define if a collider is valid.
     - id: sweepOffset
       type: System.Single
+      description: Capsule radius offset when doing capsule cast.
     return:
       type: System.Int32
-      description: Count of hits.
+      description: >-
+        Count of hits.
+
+        NOTE: If this count is 0, means no hit detected, closet hit is undefined.
+
+        Using it in this case may lead to unexpected result.
     content.vb: Public Function CharacterSweepTest(position As Vector3, rotation As Quaternion, direction As Vector3, distance As Single, isStartPenetrated As Boolean, closetHitInfo As RaycastHit, queryLayer As LayerMask, sweepHits As RaycastHit(), checkColliderValid As CheckColliderValid, sweepOffset As Single = 0) As Integer
   overload: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest*
   nameWithType.vb: KinematicRigidbodyCharacterController.CharacterSweepTest(Vector3, Quaternion, Vector3, Single, Boolean, RaycastHit, LayerMask, RaycastHit(), CheckColliderValid, Single)
@@ -1023,7 +1017,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: AttachToMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 848
+    startLine: 891
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1037,16 +1031,16 @@ items:
       description: Transform of the moving platform.
     content.vb: Public Sub AttachToMovingPlatform(platform As Transform)
   overload: Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform*
-- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
-  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform
-  id: DetachFromMovingPlatform
+- uid: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
+  commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
+  id: DetachFromMovingPlatform(UnityEngine.Transform)
   parent: Monologist.KRCC.KinematicRigidbodyCharacterController
   langs:
   - csharp
   - vb
-  name: DetachFromMovingPlatform()
-  nameWithType: KinematicRigidbodyCharacterController.DetachFromMovingPlatform()
-  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform()
+  name: DetachFromMovingPlatform(Transform)
+  nameWithType: KinematicRigidbodyCharacterController.DetachFromMovingPlatform(Transform)
+  fullName: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)
   type: Method
   source:
     remote:
@@ -1055,15 +1049,19 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: DetachFromMovingPlatform
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 859
+    startLine: 903
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
   summary: "\nDetach this character controller from a moving platform,\nwhich means not to move along with or rotate with it.\n"
   example: []
   syntax:
-    content: public void DetachFromMovingPlatform()
-    content.vb: Public Sub DetachFromMovingPlatform()
+    content: public void DetachFromMovingPlatform(Transform platform)
+    parameters:
+    - id: platform
+      type: UnityEngine.Transform
+      description: Transform of the moving platform you want to remove.
+    content.vb: Public Sub DetachFromMovingPlatform(platform As Transform)
   overload: Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform*
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)
   commentId: M:Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)
@@ -1083,7 +1081,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveByVelocity
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 869
+    startLine: 914
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1115,7 +1113,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: MoveRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 878
+    startLine: 923
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1147,7 +1145,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetPosition
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 889
+    startLine: 934
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -1179,7 +1177,7 @@ items:
       repo: git@github.com:MonologistGames/Bartender.git
     id: SetRotation
     path: ../Bartender/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs
-    startLine: 899
+    startLine: 944
   assemblies:
   - Monologist.KRCC
   namespace: Monologist.KRCC
@@ -5282,16 +5280,6 @@ references:
     name: Boolean
     isExternal: true
   - name: )
-- uid: System.Int32
-  commentId: T:System.Int32
-  parent: System
-  isExternal: true
-  name: int
-  nameWithType: int
-  fullName: int
-  nameWithType.vb: Integer
-  fullName.vb: Integer
-  name.vb: Integer
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp*
   commentId: Overload:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp
   name: CharacterUp
@@ -5393,6 +5381,16 @@ references:
     isExternal: true
   - name: (
   - name: )
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
 - uid: Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast*
   commentId: Overload:Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast
   name: CharacterRaycast

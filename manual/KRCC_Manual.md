@@ -21,16 +21,14 @@ _KRCC_ 本身依靠 Collide and Slide 算法实现，其本质是在单位事件
 
 同时位移时考虑了 _ContactOffset_, 意味着可以像寻常物理组件一样执行碰撞检测。
 ## 面板属性
-| 属性名称               | 描述                          |
-|--------------------|-----------------------------|
-| Max Iterations     | FixedUpdate 帧内最迭次数          |
-| Max Step Height    | 最大步进高度                      |
-| Max Slope Angle    | 最大可攀爬坡度                     |
-| Energy Loss Factor | 碰撞时能量损失系数, 为0时损失最大          |
-| Gravity            | 默认重力，不会被自行调用，需要在操控脚本中自行调用计算 |
-| Ground Layer       | 地形检测 LayerMask              |
-| Interact Layer     | 互动刚体 LayerMask              |
-
+| 属性名称                  | 描述                                                   |
+| ------------------------- | ------------------------------------------------------ |
+| Max Step Height           | 最大步进高度                                           |
+| Max Slope Angle           | 最大可攀爬坡度                                         |
+| Energy Loss Factor        | 碰撞时能量损失系数, 为0时损失最大                      |
+| Grounding Velocity Remain | 着陆后速度保留速度                                     |
+| Gravity                   | 默认重力，不会被自行调用，需要在操控脚本中自行调用计算 |
+| Ground Layer              | 地形检测 LayerMask                                     |
 
 # ![avatar](../resources/KRCC/Icon_MovingPlatform.png) <span id = "mv"> Moving Platform </span>
 _Moving Platform_ 依赖两个 _BoxCollider_ 和 _Rigidbody_ 组件运作。

@@ -454,7 +454,7 @@ public class KinematicRigidbodyCharacterController : MonoBehaviour</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_affectCharacterVelocity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.affectCharacterVelocity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L98">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L95">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_affectCharacterVelocity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.affectCharacterVelocity">affectCharacterVelocity</h4>
   <div class="markdown level1 summary"><p>Dose rigidbody collision affect character velocity.</p>
@@ -484,7 +484,7 @@ public class KinematicRigidbodyCharacterController : MonoBehaviour</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_energyLossFactor.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.energyLossFactor%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L115">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L114">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_energyLossFactor" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.energyLossFactor">energyLossFactor</h4>
   <div class="markdown level1 summary"><p>Determines how much energy lost when collided.
@@ -516,7 +516,7 @@ public float energyLossFactor</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_gravity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.gravity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L120">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L124">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_gravity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.gravity">gravity</h4>
   <div class="markdown level1 summary"><p>Default gravity. Will not imply automatic.</p>
@@ -543,10 +543,41 @@ public float energyLossFactor</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_groundingSpeedRemain.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+  </span>
+  <span class="small pull-right mobile-hide">
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L119">View Source</a>
+  </span>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_groundingSpeedRemain" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.groundingSpeedRemain">groundingSpeedRemain</h4>
+  <div class="markdown level1 summary"><p>How much speed will the character remain when ground on a slope.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="declaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">[Range(0, 1)]
+public float groundingSpeedRemain</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">float</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <span class="small pull-right mobile-hide">
+    <span class="divider">|</span>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_groundLayer.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L150">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L166">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_groundLayer" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.groundLayer">groundLayer</h4>
   <div class="markdown level1 summary"></div>
@@ -572,68 +603,10 @@ public float energyLossFactor</code></pre>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_interactLayer.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L149">View Source</a>
-  </span>
-  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_interactLayer" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.interactLayer">interactLayer</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public LayerMask interactLayer</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">UnityEngine.LayerMask</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
-    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxIterations.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
-  </span>
-  <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L26">View Source</a>
-  </span>
-  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxIterations" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxIterations">maxIterations</h4>
-  <div class="markdown level1 summary"></div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="declaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int maxIterations</code></pre>
-  </div>
-  <h5 class="fieldValue">Field Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">int</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <span class="small pull-right mobile-hide">
-    <span class="divider">|</span>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxSlopeAngle.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L125">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L129">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxSlopeAngle" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxSlopeAngle">maxSlopeAngle</h4>
   <div class="markdown level1 summary"><p>Max slope angle controller can climb.</p>
@@ -664,7 +637,7 @@ public float maxSlopeAngle</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_maxStepHeight.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.maxStepHeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L130">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L134">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_maxStepHeight" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.maxStepHeight">maxStepHeight</h4>
   <div class="markdown level1 summary"><p>Max height character can step onto.</p>
@@ -695,7 +668,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_pushRigidbody.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.pushRigidbody%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L93">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L90">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_pushRigidbody" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.pushRigidbody">pushRigidbody</h4>
   <div class="markdown level1 summary"><p>Enable handling rigidbody pushing.</p>
@@ -725,7 +698,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_snapGround.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.snapGround%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L88">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L85">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_snapGround" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.snapGround">snapGround</h4>
   <div class="markdown level1 summary"><p>Enable snapping to the ground.</p>
@@ -755,7 +728,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlide.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlide%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L83">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L80">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlide" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlide">solveSlide</h4>
   <div class="markdown level1 summary"><p>Enable sliding against wall.</p>
@@ -785,7 +758,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlope.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlope%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L73">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L70">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveSlope" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveSlope">solveSlope</h4>
   <div class="markdown level1 summary"><p>Enable slope solving.</p>
@@ -815,7 +788,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_solveStepping.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.solveStepping%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L78">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L75">View Source</a>
   </span>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_solveStepping" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.solveStepping">solveStepping</h4>
   <div class="markdown level1 summary"><p>Enable stepping.</p>
@@ -847,7 +820,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L64">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L61">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleHeight" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleHeight">CapsuleHeight</h4>
@@ -878,7 +851,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L59">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L56">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CapsuleRadius" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CapsuleRadius">CapsuleRadius</h4>
@@ -909,7 +882,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L46">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L43">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterPosition" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterPosition">CharacterPosition</h4>
@@ -940,7 +913,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L51">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L48">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRotation" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRotation">CharacterRotation</h4>
@@ -971,7 +944,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L41">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L38">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterUp" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterUp">CharacterUp</h4>
@@ -1002,7 +975,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L138">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L144">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CurrentVelocity" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CurrentVelocity">CurrentVelocity</h4>
@@ -1034,7 +1007,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L152">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L168">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_IsGrounded" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.IsGrounded">IsGrounded</h4>
@@ -1066,7 +1039,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L849">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L892">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_AttachToMovingPlatform_UnityEngine_Transform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.AttachToMovingPlatform(UnityEngine.Transform)">AttachToMovingPlatform(Transform)</h4>
@@ -1100,7 +1073,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_LayerMask_UnityEngine_Collider___System_Single_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CUnityEngine.LayerMask%2CUnityEngine.Collider%5B%5D%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L714">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L751">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterOverlap_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_LayerMask_UnityEngine_Collider___System_Single_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterOverlap(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.LayerMask,UnityEngine.Collider[],System.Single)">CharacterOverlap(Vector3, Quaternion, LayerMask, Collider[], float)</h4>
@@ -1130,7 +1103,7 @@ public float maxStepHeight</code></pre>
       <tr>
         <td><span class="xref">UnityEngine.Quaternion</span></td>
         <td><span class="parametername">rotation</span></td>
-        <td><p>Overlap capsule position.</p>
+        <td><p>Overlap capsule rotation.</p>
 </td>
       </tr>
       <tr>
@@ -1174,7 +1147,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3%2CUnityEngine.Vector3%2CSystem.Single%2CUnityEngine.RaycastHit%40%2CUnityEngine.LayerMask%2CUnityEngine.RaycastHit%5B%5D%2CMonologist.KRCC.CheckColliderValid)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L751">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L788">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterRaycast_UnityEngine_Vector3_UnityEngine_Vector3_System_Single_UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterRaycast(UnityEngine.Vector3,UnityEngine.Vector3,System.Single,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid)">CharacterRaycast(Vector3, Vector3, float, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid)</h4>
@@ -1260,7 +1233,7 @@ public float maxStepHeight</code></pre>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_System_Single_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3%2CUnityEngine.Quaternion%2CUnityEngine.Vector3%2CSystem.Single%2CSystem.Boolean%40%2CUnityEngine.RaycastHit%40%2CUnityEngine.LayerMask%2CUnityEngine.RaycastHit%5B%5D%2CMonologist.KRCC.CheckColliderValid%2CSystem.Single)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L792">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L832">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_CharacterSweepTest_UnityEngine_Vector3_UnityEngine_Quaternion_UnityEngine_Vector3_System_Single_System_Boolean__UnityEngine_RaycastHit__UnityEngine_LayerMask_UnityEngine_RaycastHit___Monologist_KRCC_CheckColliderValid_System_Single_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.CharacterSweepTest(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3,System.Single,System.Boolean@,UnityEngine.RaycastHit@,UnityEngine.LayerMask,UnityEngine.RaycastHit[],Monologist.KRCC.CheckColliderValid,System.Single)">CharacterSweepTest(Vector3, Quaternion, Vector3, float, out bool, out RaycastHit, LayerMask, RaycastHit[], CheckColliderValid, float)</h4>
@@ -1339,7 +1312,8 @@ start.</p>
       <tr>
         <td><span class="xref">float</span></td>
         <td><span class="parametername">sweepOffset</span></td>
-        <td></td>
+        <td><p>Capsule radius offset when doing capsule cast.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1354,34 +1328,54 @@ start.</p>
     <tbody>
       <tr>
         <td><span class="xref">int</span></td>
-        <td><p>Count of hits.</p>
+        <td><p>Count of hits.
+NOTE: If this count is 0, means no hit detected, closet hit is undefined.
+Using it in this case may lead to unexpected result.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
-    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
+    <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_UnityEngine_Transform_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L860">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L904">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform*"></a>
-  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform">DetachFromMovingPlatform()</h4>
+  <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_DetachFromMovingPlatform_UnityEngine_Transform_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.DetachFromMovingPlatform(UnityEngine.Transform)">DetachFromMovingPlatform(Transform)</h4>
   <div class="markdown level1 summary"><p>Detach this character controller from a moving platform,
 which means not to move along with or rotate with it.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="declaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void DetachFromMovingPlatform()</code></pre>
+    <pre><code class="lang-csharp hljs">public void DetachFromMovingPlatform(Transform platform)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">UnityEngine.Transform</span></td>
+        <td><span class="parametername">platform</span></td>
+        <td><p>Transform of the moving platform you want to remove.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <span class="small pull-right mobile-hide">
     <span class="divider">|</span>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L870">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L915">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveByVelocity_UnityEngine_Vector3_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveByVelocity(UnityEngine.Vector3)">MoveByVelocity(Vector3)</h4>
@@ -1416,7 +1410,7 @@ which means the motion will be velocity multiply fixed delta time.</p>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation(UnityEngine.Quaternion)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L879">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L924">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_MoveRotation_UnityEngine_Quaternion_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.MoveRotation(UnityEngine.Quaternion)">MoveRotation(Quaternion)</h4>
@@ -1450,7 +1444,7 @@ which means the motion will be velocity multiply fixed delta time.</p>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_UnityEngine_Vector3_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition(UnityEngine.Vector3)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L890">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L935">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetPosition_UnityEngine_Vector3_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetPosition(UnityEngine.Vector3)">SetPosition(Vector3)</h4>
@@ -1485,7 +1479,7 @@ NOTE: This method will not affect character velocity.</p>
     <a href="https://github.com/MonologistGames/Bartender/new/feature/basic_movement/apiSpec/new?filename=Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_UnityEngine_Quaternion_.md&amp;value=---%0Auid%3A%20Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation(UnityEngine.Quaternion)%0Asummary%3A%20&#39;*You%20can%20override%20summary%20for%20the%20API%20here%20using%20*MARKDOWN*%20syntax&#39;%0A---%0A%0A*Please%20type%20below%20more%20information%20about%20this%20API%3A*%0A%0A">Improve this Doc</a>
   </span>
   <span class="small pull-right mobile-hide">
-    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L900">View Source</a>
+    <a href="https://github.com/MonologistGames/Bartender/blob/feature/basic_movement/Assets/Scripts/KRCC/Scripts/KinematicRigidbodyCharacterController.cs/#L945">View Source</a>
   </span>
   <a id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation*"></a>
   <h4 id="Monologist_KRCC_KinematicRigidbodyCharacterController_SetRotation_UnityEngine_Quaternion_" data-uid="Monologist.KRCC.KinematicRigidbodyCharacterController.SetRotation(UnityEngine.Quaternion)">SetRotation(Quaternion)</h4>

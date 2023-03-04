@@ -63,7 +63,7 @@ items:
   summary: "\nCorrect a surface normal hit by a sphere/capsule cast.\n"
   example: []
   syntax:
-    content: public static void CorrectHitNormal(this RaycastHit hit, Vector3 direction)
+    content: public static Vector3 CorrectHitNormal(this RaycastHit hit, Vector3 direction)
     parameters:
     - id: hit
       type: UnityEngine.RaycastHit
@@ -71,7 +71,9 @@ items:
     - id: direction
       type: UnityEngine.Vector3
       description: Original raycast direction.
-    content.vb: Public Shared Sub CorrectHitNormal(hit As RaycastHit, direction As Vector3)
+    return:
+      type: UnityEngine.Vector3
+    content.vb: Public Shared Function CorrectHitNormal(hit As RaycastHit, direction As Vector3) As Vector3
   overload: Monologist.Utilities.ExtendPhysics.RaycastHitExtension.CorrectHitNormal*
 references:
 - uid: Monologist.Utilities.ExtendPhysics
